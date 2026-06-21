@@ -1,0 +1,9 @@
+.env
+
+__pycache__/
+finetuned/sentiment_with_emotion_model/
+new_code.py
+true_duplicates.csv
+preprocess.py
+fix_data_leakage.py
+inspect_overlap.py

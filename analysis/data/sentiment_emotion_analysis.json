@@ -1,0 +1,345 @@
+{
+  "emotion_vs_sentiment": {
+    "negative": {
+      "anger": 39,
+      "betrayal": 21,
+      "celebration": 0,
+      "contempt": 13,
+      "craving": 12,
+      "forming": 14,
+      "hustle_energy": 0,
+      "hustle_fatigue": 60,
+      "joy": 0,
+      "market_energy": 10,
+      "neutral": 22,
+      "prayer_gratitude": 1,
+      "pride": 5,
+      "sarcasm": 28,
+      "shock": 19,
+      "suspicion": 19
+    },
+    "neutral": {
+      "anger": 0,
+      "betrayal": 0,
+      "celebration": 0,
+      "contempt": 1,
+      "craving": 1,
+      "forming": 3,
+      "hustle_energy": 0,
+      "hustle_fatigue": 1,
+      "joy": 0,
+      "market_energy": 6,
+      "neutral": 58,
+      "prayer_gratitude": 3,
+      "pride": 1,
+      "sarcasm": 0,
+      "shock": 0,
+      "suspicion": 1
+    },
+    "positive": {
+      "anger": 0,
+      "betrayal": 0,
+      "celebration": 25,
+      "contempt": 0,
+      "craving": 7,
+      "forming": 0,
+      "hustle_energy": 15,
+      "hustle_fatigue": 0,
+      "joy": 30,
+      "market_energy": 4,
+      "neutral": 9,
+      "prayer_gratitude": 30,
+      "pride": 39,
+      "sarcasm": 0,
+      "shock": 1,
+      "suspicion": 0
+    }
+  },
+  "sarcasm_vs_sentiment": {
+    "negative": {
+      "no": 224,
+      "yes": 39
+    },
+    "neutral": {
+      "no": 75,
+      "yes": 0
+    },
+    "positive": {
+      "no": 160,
+      "yes": 0
+    }
+  },
+  "register_vs_sentiment": {
+    "negative": {
+      "casual": 167,
+      "proverbial": 7,
+      "street": 89
+    },
+    "neutral": {
+      "casual": 68,
+      "proverbial": 0,
+      "street": 7
+    },
+    "positive": {
+      "casual": 128,
+      "proverbial": 0,
+      "street": 32
+    }
+  },
+  "context_variants": [
+    {
+      "pidgin_text": "You don try well well",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "celebration",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You don try well well",
+      "train_sentiment": "negative",
+      "test_sentiment": "positive",
+      "train_emotion": "sarcasm",
+      "test_emotion": "celebration",
+      "train_sarcasm": "yes",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "You get patience oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "pride",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "Sorry oh",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "Sorry oh",
+      "train_sentiment": "negative",
+      "test_sentiment": "neutral",
+      "train_emotion": "sarcasm",
+      "test_emotion": "neutral",
+      "train_sarcasm": "yes",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "This soup sweet oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "joy",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You don make am",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "celebration",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You don make am",
+      "train_sentiment": "negative",
+      "test_sentiment": "positive",
+      "train_emotion": "sarcasm",
+      "test_emotion": "celebration",
+      "train_sarcasm": "yes",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "E be like say",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "suspicion",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "You just dey come Lagos?",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "E don do",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "anger",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "E don do",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "anger",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "E don do",
+      "train_sentiment": "neutral",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "anger",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "You dey grind",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "hustle_energy",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You come early today oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "joy",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "Thank you for the advice",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "joy",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "I no send you",
+      "train_sentiment": "negative",
+      "test_sentiment": "negative",
+      "train_emotion": "forming",
+      "test_emotion": "contempt",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "You go hear am",
+      "train_sentiment": "negative",
+      "test_sentiment": "negative",
+      "train_emotion": "anger",
+      "test_emotion": "anger",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You go hear am",
+      "train_sentiment": "negative",
+      "test_sentiment": "negative",
+      "train_emotion": "anger",
+      "test_emotion": "anger",
+      "train_sarcasm": "yes",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "You too dey form",
+      "train_sentiment": "negative",
+      "test_sentiment": "negative",
+      "train_emotion": "forming",
+      "test_emotion": "contempt",
+      "train_sarcasm": "no",
+      "test_sarcasm": "no"
+    },
+    {
+      "pidgin_text": "Your life sweet oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "celebration",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You sabi the work",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "pride",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You dress fine today oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "joy",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You try oh",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "celebration",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You do well",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "celebration",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "I know say you go do the right thing",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "pride",
+      "test_emotion": "betrayal",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "You too quiet today oh",
+      "train_sentiment": "negative",
+      "test_sentiment": "negative",
+      "train_emotion": "suspicion",
+      "test_emotion": "sarcasm",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    },
+    {
+      "pidgin_text": "E no hard",
+      "train_sentiment": "positive",
+      "test_sentiment": "negative",
+      "train_emotion": "neutral",
+      "test_emotion": "forming",
+      "train_sarcasm": "no",
+      "test_sarcasm": "yes"
+    }
+  ],
+  "context_variant_count": 28,
+  "true_duplicate_count": 183
+}

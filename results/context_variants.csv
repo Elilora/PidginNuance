@@ -1,0 +1,29 @@
+pidgin_text,train_entry_id,test_entry_id,train_sentiment,test_sentiment,train_emotion_category,test_emotion_category,train_emotion_secondary,test_emotion_secondary,train_register,test_register,train_sarcasm_flag,test_sarcasm_flag,train_prosody_match,test_prosody_match,train_intensity,test_intensity
+You do well,WZ-T-0370,WZ-T-0371,positive,negative,celebration,sarcasm,,,casual,street,no,yes,matched,contradicts,2,2
+E no hard,WZ-T-0396,WZ-T-0397,positive,negative,neutral,forming,,hustle_fatigue,casual,street,no,yes,matched,matched,1,3
+You sabi the work,WZ-T-0388,WZ-T-0389,positive,negative,pride,sarcasm,,suspicion,casual,street,no,yes,matched,matched,2,2
+You too dey form,WZ-T-0021,WZ-T-0508,negative,negative,forming,contempt,,,street,street,no,no,matched,matched,2,3
+You too quiet today oh,WZ-T-0400,WZ-T-0401,negative,negative,suspicion,sarcasm,,anger,casual,street,no,yes,matched,contradicts,1,3
+You come early today oh,WZ-T-0372,WZ-T-0373,positive,negative,joy,sarcasm,,anger,casual,street,no,yes,matched,matched,1,2
+I no send you,WZ-T-0344,WZ-T-0502,negative,negative,forming,contempt,,,street,casual,no,no,matched,matched,2,4
+Sorry oh,WZ-T-0408,WZ-T-0409,neutral,negative,neutral,sarcasm,,anger,casual,street,no,yes,matched,contradicts,2,2
+Sorry oh,WZ-T-0409,WZ-T-0408,negative,neutral,sarcasm,neutral,anger,,street,casual,yes,no,contradicts,matched,2,2
+You go hear am,WZ-T-0187,WZ-T-0203,negative,negative,anger,anger,suspicion,,street,street,no,yes,matched,matched,3,3
+You go hear am,WZ-T-0203,WZ-T-0187,negative,negative,anger,anger,,suspicion,street,street,yes,no,matched,matched,3,3
+You just dey come Lagos?,WZ-T-0031,WZ-T-0032,neutral,negative,neutral,sarcasm,,,casual,street,no,yes,matched,contradicts,1,2
+You don try well well,WZ-T-0006,WZ-T-0007,positive,negative,celebration,sarcasm,,,casual,street,no,yes,matched,contradicts,3,3
+You don try well well,WZ-T-0007,WZ-T-0006,negative,positive,sarcasm,celebration,,,street,casual,yes,no,contradicts,matched,3,3
+You get patience oh,WZ-T-0392,WZ-T-0393,positive,negative,pride,sarcasm,,anger,casual,street,no,yes,matched,contradicts,1,2
+This soup sweet oh,WZ-T-0376,WZ-T-0377,positive,negative,joy,sarcasm,,,casual,street,no,yes,matched,matched,2,2
+E be like say,WZ-T-0044,WZ-T-0045,neutral,negative,neutral,suspicion,,,casual,casual,no,no,matched,matched,1,2
+E don do,WZ-T-0010,WZ-T-0012,neutral,negative,neutral,anger,,,casual,street,no,no,matched,matched,1,3
+E don do,WZ-T-0011,WZ-T-0012,neutral,negative,neutral,anger,,,casual,street,no,no,matched,matched,1,3
+E don do,WZ-T-0013,WZ-T-0012,neutral,negative,neutral,anger,,,casual,street,no,no,matched,matched,1,3
+You dey grind,WZ-T-0380,WZ-T-0381,positive,negative,hustle_energy,sarcasm,,,casual,street,no,yes,matched,matched,2,2
+I know say you go do the right thing,WZ-T-0404,WZ-T-0405,positive,negative,pride,betrayal,prayer_gratitude,forming,casual,street,no,yes,matched,matched,2,3
+Your life sweet oh,WZ-T-0412,WZ-T-0413,positive,negative,celebration,sarcasm,,suspicion,casual,street,no,yes,matched,contradicts,2,2
+You don make am,WZ-T-0402,WZ-T-0403,positive,negative,celebration,sarcasm,pride,shock,casual,street,no,yes,matched,contradicts,3,3
+You don make am,WZ-T-0403,WZ-T-0402,negative,positive,sarcasm,celebration,shock,pride,street,casual,yes,no,contradicts,matched,3,3
+Thank you for the advice,WZ-T-0378,WZ-T-0379,positive,negative,joy,sarcasm,,anger,casual,street,no,yes,matched,contradicts,1,2
+You dress fine today oh,WZ-T-0384,WZ-T-0385,positive,negative,joy,sarcasm,,,casual,street,no,yes,matched,matched,1,2
+You try oh,WZ-T-0414,WZ-T-0415,positive,negative,celebration,sarcasm,,hustle_fatigue,casual,street,no,yes,matched,contradicts,2,2
