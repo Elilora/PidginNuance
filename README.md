@@ -12,7 +12,7 @@ Nigerian Pidgin is a high-context language where the same surface text can expre
 
 ## Motivation
 
-This project began with a LinkedIn post by Stephanie Nkemjika Okoye https://www.linkedin.com/posts/sokoye_nigerianpidgin-africannlp-lowresourcenlp-share-7459283130651246592-2LgC/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADfXXRoBKaF9-aJ0K2D1TJI7usOMd8BjKAQ, the dataset author, describing her experience annotating Nigerian Pidgin text:
+This project began with a LinkedIn post by Stephanie Nkemjika Okoye , the dataset author,find post [here](https://www.linkedin.com/posts/sokoye_nigerianpidgin-africannlp-lowresourcenlp-share-7459283130651246592-2LgC/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADfXXRoBKaF9-aJ0K2D1TJI7usOMd8BjKAQ)describing her experience annotating Nigerian Pidgin text:
 
 > "Most NLP datasets for African languages use positive / negative / neutral. Three buckets. For English, that's workable. For Nigerian Pidgin, it's almost meaningless. When someone says 'I no fit shout' -- are they angry? Exhausted? Indifferent? The answer is none of those. They're most likely in hustle_fatigue. A state of being so worn down by grinding that you can't even summon the energy to react. That's a specific Nigerian emotional register that doesn't map to any standard sentiment label."
 
