@@ -1,21 +1,4 @@
-# PidginNuance
-
-
-
-For streamlit:
-"""
-Dataset Overview page: KPI cards + distribution charts from dataset_overview.json
-"""
-
-"""
-Agent page: interactive pidgin text analysis.
-Guesses emotion, lets user confirm/correct, then predicts sentiment.
-"""
-
-streamlit run streamlit_app/Home.py
-
-
-# Nigerian Pidgin Sentiment & Emotion Analysis
+# Nigerian Pidgin Sentiment & Emotion Analysis (PidginNuance)
 
 An end-to-end NLP pipeline for analysing sentiment and emotion in Nigerian Pidgin text — a language where tone, sarcasm, and cultural context carry as much meaning as the words themselves.
 
@@ -33,9 +16,9 @@ This project began with a LinkedIn post by Stephanie, the dataset author, descri
 
 > "Most NLP datasets for African languages use positive / negative / neutral. Three buckets. For English, that's workable. For Nigerian Pidgin, it's almost meaningless. When someone says 'I no fit shout' — are they angry? Exhausted? Indifferent? The answer is none of those. They're most likely in hustle_fatigue. A state of being so worn down by grinding that you can't even summon the energy to react. That's a specific Nigerian emotional register that doesn't map to any standard sentiment label."
 
-She went on to describe building a 16-category emotion taxonomy from scratch — grounded in how Nigerians actually speak — including categories like `forming` (performing unbothered on purpose), `market_energy` (the sharp transactional energy of Nigerian negotiation), `prayer_gratitude` (the testimony register), and `contempt` (a cold downward dismissal distinct from anger). The dataset included 39 sarcasm pairs with sincere twins: identical surface text, opposite sentiment, different emotional register — a deliberate design choice to capture the nuance that standard positive/negative/neutral annotation erases.
+She went on to describe building a 16-category emotion taxonomy from scratch — grounded in how Nigerians actually speak: including categories like `forming` (performing unbothered on purpose), `market_energy` (the sharp transactional energy of Nigerian negotiation), `prayer_gratitude` (the testimony register), and `contempt` (a cold downward dismissal distinct from anger). The dataset included 39 sarcasm pairs with sincere twins: identical surface text, opposite sentiment, different emotional register, a deliberate design choice to capture the nuance that standard positive/negative/neutral annotation erases.
 
-This project is a direct response to that observation. The core hypothesis going in was the same point Stephanie made: that sentiment in Nigerian Pidgin is not recoverable from surface text alone, and that the emotional register annotation her taxonomy provides is the missing signal. The experiments confirm it — text-only sentiment classification caps at ~50%, and providing ground-truth emotion context lifts that to 96.4%, directly quantifying the gap between "reads the words" and "understands the language."
+This project is a direct response to that observation. The core hypothesis going in was the same point Stephanie made: that sentiment in Nigerian Pidgin is not recoverable from surface text alone, and that the emotional register annotation her taxonomy provides is the missing signal. The experiments confirm it, text-only sentiment classification caps at ~50%, and providing ground-truth emotion context lifts that to 96.4%, directly quantifying the gap between "reads the words" and "understands the language."
 
 Nigerian Pidgin carries its meaning in layers — in the weight behind a word, in the register it is spoken in, in whether "You do well" lands as a compliment or a cut. The emotion is not separate from the sentiment; it is how the sentiment travels. Building systems that understand Pidgin means building systems that understand this; not flattening it into three buckets, but meeting the language where it actually lives.
 
@@ -53,8 +36,29 @@ Nigerian Pidgin carries its meaning in layers — in the weight behind a word, i
 ## Ablation Study: Text-Only vs. Context-Aware Sentiment
 
 The central question of this project was: **how much of sentiment in Nigerian Pidgin is carried by the words versus the emotional/tonal context?**
+### What the overlap experiment revealed
 
-To answer this, three conditions were tested in sequence, each adding more context to the model's input:
+To test the hypothesis that emotion is necessary for sentiment prediction in Nigerian Pidgin, the training and evaluation sets were compared directly. 211 of 248 unique evaluation texts were found to also exist in the training set, which, for a text-only model, would be flagged as data leakage. Closer inspection turned this into the most revealing finding of the project.
+
+Of those overlapping rows, 28 had identical surface text but deliberately different sentiment and emotion labels. These were not annotation errors. They were the same sentence, said two different ways:
+
+| Text | Sentiment | Emotion | Sarcasm |
+|------|-----------|---------|---------|
+| "You do well" | positive | celebration | no |
+| "You do well" | negative | sarcasm | yes |
+| "E no hard" | positive | neutral | no |
+| "E no hard" | negative | forming | yes |
+| "You sabi the work" | positive | pride | no |
+| "You sabi the work" | negative | sarcasm | yes |
+
+The same words. Opposite meaning. The only thing that changed was the emotional register and that register is exactly what a text-only model cannot see.
+
+What looked like a data quality problem was actually the dataset doing its job: deliberately testing whether a model can distinguish sincerity from sarcasm when the surface text gives no signal. The 214 true duplicates (same text, same labels across every annotation column) were removed. The 28 context-variant pairs were preserved as the most important part of the evaluation set, the cases where text alone is definitionally insufficient, and where emotion is the only path to the correct answer.
+
+The result was not a simple accuracy number, but a quantification of the gap between reading words and understanding language, and the answer, for Nigerian Pidgin, was that the gap is almost total.
+
+
+exxtending to the experimental design, three conditions were tested in sequence, each adding more context to the model's input:
 
 ### Condition 1 — Pre-trained model, text only (no fine-tuning)
 A model already fine-tuned on Nigerian Pidgin Twitter sentiment data was applied directly to the dataset, with no additional training. Input was raw `pidgin_text` alone.
@@ -81,28 +85,9 @@ The model was then fine-tuned on this combined input to predict sentiment.
 
 **Result: 96.4% accuracy on the 253-row held-out evaluation set**
 
-The dramatic jump from ~53% to 96.4% directly quantifies how much sentiment signal in Nigerian Pidgin lives outside the surface text — in tonal, emotional, and contextual cues that the `emotion_category` annotation captures.
+The dramatic jump from ~53% to 96.4% directly quantifies how much sentiment signal in Nigerian Pidgin lives outside the surface text, in tonal, emotional, and contextual cues that the `emotion_category` annotation captures.
 
-### What the overlap experiment revealed
 
-To test the hypothesis that emotion is necessary for sentiment prediction in Nigerian Pidgin, the training and evaluation sets were compared directly. 211 of 248 unique evaluation texts were found to also exist in the training set, which, for a text-only model, would be flagged as data leakage. Closer inspection turned this into the most revealing finding of the project.
-
-Of those overlapping rows, 28 had identical surface text but deliberately different sentiment and emotion labels. These were not annotation errors. They were the same sentence, said two different ways:
-
-| Text | Sentiment | Emotion | Sarcasm |
-|------|-----------|---------|---------|
-| "You do well" | positive | celebration | no |
-| "You do well" | negative | sarcasm | yes |
-| "E no hard" | positive | neutral | no |
-| "E no hard" | negative | forming | yes |
-| "You sabi the work" | positive | pride | no |
-| "You sabi the work" | negative | sarcasm | yes |
-
-The same words. Opposite meaning. The only thing that changed was the emotional register and that register is exactly what a text-only model cannot see.
-
-What looked like a data quality problem was actually the dataset doing its job: deliberately testing whether a model can distinguish sincerity from sarcasm when the surface text gives no signal. The 214 true duplicates (same text, same labels across every annotation column) were removed. The 28 context-variant pairs were preserved as the most important part of the evaluation set, the cases where text alone is definitionally insufficient, and where emotion is the only path to the correct answer.
-
-The result was not a simple accuracy number, but a quantification of the gap between reading words and understanding language, and the answer, for Nigerian Pidgin, was that the gap is almost total.
 
 ---
 
@@ -113,9 +98,6 @@ The result was not a simple accuracy number, but a quantification of the gap bet
 | Pre-trained baseline | `pidgin_text` only | ~51% |
 | Fine-tuned, text only | `pidgin_text` only | ~53% |
 | Fine-tuned, with emotion context | `[EMOTION: x] pidgin_text` | **96.4%** |
-| Emotion classification (16 classes) | `pidgin_text` only | ~33% |
-
-The emotion classification result (~33% on 16 classes) reflects a data constraint — averaging ~31 training examples per class — rather than a modelling failure, and is consistent with known challenges in fine-grained emotion classification for low-resource languages.
 
 ---
 
@@ -173,8 +155,6 @@ python -m agent.pidgin_agent
 
 **Text prefix concatenation over custom architecture**: injecting `emotion_category` as a structured text prefix (`[EMOTION: x]`) rather than a separate learned embedding branch keeps the architecture simple and standard, avoids overfitting risk on a small dataset, and is interpretable — you can read exactly what the model sees.
 
-**Two-phase agent over single blocking run**: splitting the `CodeAgent` into two `.run()` calls (emotion guess → user confirmation → sentiment prediction) with `reset=False` preserves full agent memory and tool-calling behaviour across both phases, while eliminating the web-incompatible terminal `input()` dependency of `UserInputTool`.
-
 ---
 
 ## Technologies
@@ -182,14 +162,28 @@ python -m agent.pidgin_agent
 Python · HuggingFace Transformers · smolagents · LiteLLM · Anthropic Claude API · scikit-learn · Plotly · Streamlit · streamlit-extras
 
 ---
-
 ## Credits & Citations
 
 ### Datasets
 
-**Training and evaluation data** provided by Wazobia Labs via Hugging Face Hub:
+**Training and evaluation data** created by Stephanie Nkemjika Okoye / Wazobia Labs. Published under **CC-BY-4.0** — free to use for research, academic, and commercial purposes with attribution.
+
 - Training set: [`WAZOBIALABS/nigerian-pidgin-voice-text`](https://huggingface.co/datasets/WAZOBIALABS/nigerian-pidgin-voice-text)
 - Evaluation set: [`WAZOBIALABS/nigerian-pidgin-eval`](https://huggingface.co/datasets/WAZOBIALABS/nigerian-pidgin-eval)
+- Contact: wazobialabs@gmail.com
+
+```bibtex
+@dataset{wazobia_labs_pidgin_2026,
+  author    = {Okoye, Stephanie Nkemjika},
+  title     = {Wazobia Labs Nigerian Pidgin Emotion and Sentiment Dataset},
+  year      = {2026},
+  version   = {0.8.0},
+  publisher = {Hugging Face},
+  url       = {https://huggingface.co/datasets/WAZOBIALABS/nigerian-pidgin-voice-text},
+  license   = {CC-BY-4.0},
+  note      = {First commercially licensed Nigerian Pidgin emotion dataset with 16-category cultural taxonomy}
+}
+```
 
 ### Pre-trained Models
 
@@ -227,6 +221,7 @@ Python · HuggingFace Transformers · smolagents · LiteLLM · Anthropic Claude 
     pages = "4336--4349",
 }
 ```
+
 
 ### LLM Agent
 
