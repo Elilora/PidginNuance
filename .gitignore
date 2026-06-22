@@ -1,5 +1,7 @@
 .env
-
+.bin
+.pyc
+.safetensors
 __pycache__/
 finetuned/sentiment_with_emotion_model/
 new_code.py
