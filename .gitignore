@@ -1,9 +1,23 @@
+# Environment files
 .env
-.bin
-.pyc
-.safetensors
+
+
+# Python
 __pycache__/
-finetuned/sentiment_with_emotion_model/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files (too large for GitHub)
+*.safetensors
+*.bin
+finetuned/
+sentiment_model/
+emotion_model_stage1/
+multitask_model/
+sentiment_with_emotion_model/
+
+# Specific files to ignore
 new_code.py
 true_duplicates.csv
 preprocess.py
@@ -11,4 +25,10 @@ fix_data_leakage.py
 inspect_overlap.py
 finetuned/sanity_check.py
 data/preprocess_data.ipynb
-dashboard
+
+# Dashboard
+dashboard/node_modules/
+dashboard/.next/
+
+# Analysis computed outputs (regeneratable)
+analysis/data/
