@@ -1,25 +1,21 @@
-"""
-Reusable sentiment classifier function/class for use as an agent tool.
-Wraps the fine-tuned context-aware sentiment model (text + emotion_category input).
-"""
-
 import os
 import dotenv
 from transformers import pipeline
 from huggingface_hub import login
 
 dotenv.load_dotenv()
+
 _token = os.getenv("HUGGINGFACE_KEY")
 if _token:
     login(_token)
 
 model_dir = "./finetuned/sentiment_with_emotion_model"
 
-# Load once at module level
+# Load at module level
 _sentiment_pipeline = pipeline("sentiment-analysis",model=model_dir,tokenizer=model_dir)
 
 
-def predict_sentiment(text: str, emotion_category: str) -> dict:
+def predict_sentiment(text, emotion_category):
     """
     Predicts sentiment given pidgin text and a known/guessed emotion category.
     """
@@ -31,6 +27,6 @@ def predict_sentiment(text: str, emotion_category: str) -> dict:
 
 
 if __name__ == "__main__":
-    # Quick manual test
+    # Quick test
     example = predict_sentiment("You do well", "sarcasm")
     print(example)
