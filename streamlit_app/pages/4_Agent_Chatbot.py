@@ -11,9 +11,6 @@ from tasks.emotion_guessing_pipeline import guess_emotion
 from tasks.sentiment_analysis_pipeline import predict_sentiment
 
 
-
-
-
 st.set_page_config(page_title="Agent", layout="wide")
 st.title("Pidgin Sentiment Agent")
 
