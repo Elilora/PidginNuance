@@ -1,0 +1,501 @@
+entry_id,pidgin_text,english_gloss,sentiment,emotion_category,emotion_secondary,register,sarcasm_flag,prosody_match,annotator_notes,topic_domain,speaker_gender,intensity,source_type,date_added
+WZ-T-0001,How you dey?,How are you?,neutral,neutral,,casual,no,matched,Standard Lagos greeting,greeting,neutral,1,original,2026-04-23
+WZ-T-0002,How body?,How are you feeling?,neutral,neutral,,casual,no,matched,More intimate than how you dey,greeting,neutral,1,original,2026-04-23
+WZ-T-0003,You don chop?,Have you eaten?,neutral,neutral,,casual,no,matched,Care expression very common,food,neutral,1,original,2026-04-23
+WZ-T-0004,You don try,Well done — sincere,positive,joy,,casual,no,matched,Sincere warm praise,social,neutral,1,original,2026-04-23
+WZ-T-0005,You don try oh,You really did well,positive,joy,,casual,no,matched,Oh increases sincerity and warmth,social,neutral,2,original,2026-04-23
+WZ-T-0006,You don try well well,You did extremely well — sincere,positive,celebration,,casual,no,matched,Intensifier doubles sincere praise,social,neutral,3,original,2026-04-23
+WZ-T-0007,You don try well well,You think you did well? — sarcastic,negative,sarcasm,,street,yes,contradicts,Speaker sensed prior deceit or failure — same phrase opposite meaning,social,neutral,3,original,2026-04-23
+WZ-T-0008,You don really try,You genuinely did well,positive,celebration,,casual,no,matched,Really as sincere intensifier,social,neutral,2,original,2026-04-23
+WZ-T-0009,E don do abeg,I've had enough please — exhaustion,negative,hustle_fatigue,,casual,no,matched,Exhaustion and resignation,emotion,neutral,2,original,2026-04-23
+WZ-T-0010,E don do,That's enough — stop quantity,neutral,neutral,,casual,no,matched,Stopping someone from adding too much — food money quantity etc,life,neutral,1,original,2026-04-23
+WZ-T-0011,E don do,It's okay — consoling someone crying,neutral,neutral,,casual,no,matched,Consoling someone upset or crying — gentle and warm,emotion,neutral,1,original,2026-04-23
+WZ-T-0012,E don do,Stop it — breaking up a fight,negative,anger,,street,no,matched,Commanding someone to stop fighting or arguing,conflict,neutral,3,original,2026-04-23
+WZ-T-0013,E don do,Enough explanation — cut it short,neutral,neutral,,casual,no,matched,Cutting off excessive talking or explanation,social,neutral,1,original,2026-04-23
+WZ-T-0014,Omo e hard o,Wow it's really difficult,negative,hustle_fatigue,,casual,no,matched,Acknowledging struggle,emotion,neutral,2,original,2026-04-23
+WZ-T-0015,I no fit shout,I can't be bothered,negative,hustle_fatigue,,street,no,matched,Too tired to react,emotion,neutral,2,original,2026-04-23
+WZ-T-0016,Heat dey do me,The heat is getting to me,negative,hustle_fatigue,,casual,no,matched,Mild heat complaint,life,neutral,1,original,2026-04-23
+WZ-T-0017,Heat wan wound me,This heat is really bad,negative,hustle_fatigue,,street,no,matched,Dramatic intensification,life,neutral,2,original,2026-04-23
+WZ-T-0018,Heat wan kill me,This heat is absolutely unbearable,negative,hustle_fatigue,,street,no,matched,Peak dramatic expression,life,neutral,3,original,2026-04-23
+WZ-T-0019,Na God o,It's God's doing,positive,prayer_gratitude,,casual,no,matched,Gratitude expression,faith,neutral,1,original,2026-04-23
+WZ-T-0020,God don butter my bread,God has blessed me,positive,prayer_gratitude,,casual,no,matched,Gratitude for breakthrough,faith,neutral,2,original,2026-04-23
+WZ-T-0021,You too dey form,You're acting too cool/fake,negative,forming,,street,no,matched,Calling out pretension,social,neutral,2,original,2026-04-23
+WZ-T-0022,You well at all?,Are you okay at all?,negative,anger,,casual,no,matched,Mild rebuke and disbelief,social,neutral,2,original,2026-04-23
+WZ-T-0023,Wahala dey o,There's trouble/drama,negative,anger,,casual,no,matched,Warning of incoming problem,social,neutral,2,original,2026-04-23
+WZ-T-0024,Wetin you mean?,What do you mean?,negative,suspicion,,casual,no,matched,Challenging someone's statement,social,neutral,2,original,2026-04-23
+WZ-T-0025,This man sef,Ugh this man,negative,anger,,casual,no,matched,Standalone exasperation — complete thought,social,neutral,2,original,2026-04-23
+WZ-T-0026,This man eh,Ugh this man,negative,anger,,casual,no,matched,Same meaning as this man sef — different expression,social,neutral,2,original,2026-04-23
+WZ-T-0027,This boy dey gba,This boy is smelling,negative,anger,,street,no,matched,Direct social judgment about body odour,social,neutral,2,original,2026-04-23
+WZ-T-0028,You never lock door,You haven't locked the door,neutral,neutral,,casual,no,matched,Plain reminder no emotional charge,life,neutral,1,original,2026-04-23
+WZ-T-0029,You never lock door oh,You still haven't locked the door,neutral,neutral,,casual,no,matched,Emotion escalates to anger depending on tone — see prosody,life,neutral,2,original,2026-04-23
+WZ-T-0030,Ordinary water he no get,He doesn't even have basic water,negative,shock,betrayal,street,no,matched,Shock at complete unpreparedness — betrayal also present,social,neutral,3,original,2026-04-23
+WZ-T-0031,You just dey come Lagos?,Are you new to Lagos? — genuine,neutral,neutral,,casual,no,matched,Genuine question to newcomer,social,neutral,1,original,2026-04-23
+WZ-T-0032,You just dey come Lagos?,You clearly don't know Lagos — mockery,negative,sarcasm,,street,yes,contradicts,Mockery of naivety — speaker still in Lagos context,social,neutral,2,original,2026-04-23
+WZ-T-0033,Abeg leave matter,Please drop the topic,negative,hustle_fatigue,,casual,no,matched,Dismissal tired of subject,emotion,neutral,2,original,2026-04-23
+WZ-T-0034,E be things,That's just how it is,neutral,neutral,,casual,no,matched,Resignation and acceptance,life,neutral,1,original,2026-04-23
+WZ-T-0035,I dey kampe,I'm doing very well,positive,joy,,casual,no,matched,Strong positive state,greeting,neutral,1,original,2026-04-23
+WZ-T-0036,Wetin dey happen?,What's going on?,neutral,neutral,,casual,no,matched,General check-in,social,neutral,1,original,2026-04-23
+WZ-T-0037,We move!,We're moving forward!,positive,celebration,,street,no,matched,Hype and motivation phrase,motivation,neutral,3,original,2026-04-23
+WZ-T-0038,Dem never see anything,They haven't seen anything yet,positive,pride,,street,no,matched,Confidence and swagger,motivation,neutral,2,original,2026-04-23
+WZ-T-0039,No dulling we move,No slacking let's go,positive,celebration,,street,no,matched,Motivational push,motivation,neutral,3,original,2026-04-23
+WZ-T-0040,E sweet me die,I enjoyed it so much,positive,joy,,street,no,matched,Intense enjoyment,emotion,neutral,2,original,2026-04-23
+WZ-T-0041,You wan go market?,Do you want to go to the market?,neutral,neutral,,casual,no,matched,Simple question no emotional charge,life,neutral,1,original,2026-04-23
+WZ-T-0042,Abi now,You agree right? — seeking confirmation,neutral,neutral,,casual,no,matched,Seeking agreement or validation from listener,social,neutral,1,original,2026-04-23
+WZ-T-0043,You this person,You this person — frustrated,negative,anger,,casual,no,matched,Real frustration and irritation — not playful,social,neutral,2,original,2026-04-23
+WZ-T-0044,E be like say,It seems like — realization,neutral,neutral,,casual,no,matched,Realization version — speaker just figured something out,social,neutral,1,original,2026-04-23
+WZ-T-0045,E be like say,It seems like — doubt,negative,suspicion,,casual,no,matched,Doubt version — speaker not convinced,social,neutral,2,original,2026-04-23
+WZ-T-0046,No be small thing,This exceeded expectations,positive,pride,,casual,no,matched,Happy about outcome — slightly exceeded expectation or genuine admiration,social,neutral,2,original,2026-04-23
+WZ-T-0047,See your life,Look at the state of you,negative,neutral,,street,no,matched,Pure mockery — no affectionate version,social,neutral,2,original,2026-04-23
+WZ-T-0048,I hail,I respect you,positive,pride,,casual,no,matched,Pure respect and acknowledgement — never sarcastic,social,neutral,1,original,2026-04-23
+WZ-T-0049,Shine your eye,Be alert — warning of danger or deceit,negative,suspicion,,street,no,matched,Warning for deceitful cunning unpredictable or risky situations,social,neutral,2,original,2026-04-23
+WZ-T-0050,Shine your eye well well,Be very alert — strong warning,negative,suspicion,,street,no,matched,Intensified version — situation is seriously risky or dangerous,social,neutral,3,original,2026-04-23
+WZ-T-0051,How much be the money?,How much does it cost?,neutral,neutral,,casual,no,matched,Simple price inquiry,money,neutral,1,original,2026-04-23
+WZ-T-0052,Allawee don show,Allowance has arrived,positive,celebration,,casual,no,matched,Joy at receiving allowance,money,neutral,2,original,2026-04-23
+WZ-T-0053,Salary don show,Salary has arrived,positive,celebration,,casual,no,matched,Joy at receiving salary,money,neutral,3,original,2026-04-23
+WZ-T-0054,I no get money,I don't have money,negative,hustle_fatigue,,casual,no,matched,Plain statement of being broke,money,neutral,1,original,2026-04-23
+WZ-T-0055,Owu dey blow me,Poverty is hitting me hard,negative,hustle_fatigue,,street,no,matched,Humorous informal word for poverty — same as sapa,money,neutral,2,original,2026-04-23
+WZ-T-0056,Sapa dey,There's no money — poverty is present,negative,hustle_fatigue,,street,no,matched,Sapa = symbolic word for poverty — dey confirms its presence,money,neutral,2,original,2026-04-23
+WZ-T-0057,Sapa,Poverty — I am broke,negative,hustle_fatigue,,street,no,matched,Standalone sapa — more intense — I AM the poverty,money,neutral,3,original,2026-04-23
+WZ-T-0058,I no hold money,I don't have money,negative,hustle_fatigue,,casual,no,matched,Money comes and goes — can't retain it,money,neutral,2,original,2026-04-23
+WZ-T-0059,Comot money for me now?,Give me a discount,neutral,market_energy,,casual,no,matched,Requesting discount — direct ask,money,neutral,1,original,2026-04-23
+WZ-T-0060,No charge me oh,Don't give me an expensive price,negative,market_energy,,casual,no,matched,Requesting not to be overcharged — mild plea,money,neutral,1,original,2026-04-23
+WZ-T-0061,You too cost,You are too expensive,negative,market_energy,,street,no,matched,Frustration at high price of person or thing,money,neutral,2,original,2026-04-23
+WZ-T-0062,E cost oh,It's expensive,negative,market_energy,,casual,no,matched,General complaint about price,money,neutral,2,original,2026-04-23
+WZ-T-0063,I dey owe,I am in debt,negative,hustle_fatigue,,casual,no,matched,Stating debt situation plainly,money,neutral,1,original,2026-04-23
+WZ-T-0064,I no fit pay,I can't afford to pay,negative,hustle_fatigue,,casual,no,matched,Inability to pay — resigned,money,neutral,2,original,2026-04-23
+WZ-T-0065,Come collect your money,Come and take your money,neutral,neutral,,casual,no,matched,Telling someone to collect what is owed to them,money,neutral,1,original,2026-04-23
+WZ-T-0066,Bank debit me yesterday,The bank debited me yesterday,negative,shock,anger,casual,no,matched,Surprise and frustration at unexpected debit,money,neutral,2,original,2026-04-23
+WZ-T-0067,Opay dem debit me yesterday,Opay debited me yesterday,negative,shock,anger,street,no,matched,Same as bank debit but specific to Opay — very natural Lagos fintech speech,money,neutral,2,original,2026-04-23
+WZ-T-0068,Credit alert dey hungry me,I really want to get a credit alert,negative,craving,,street,no,matched,Intense longing for money to land in account,money,neutral,3,original,2026-04-23
+WZ-T-0069,I never get alert,I haven't received an alert yet,negative,craving,,casual,no,matched,Waiting anxiously for payment to arrive,money,neutral,2,original,2026-04-23
+WZ-T-0070,You no go comot money for me?,Won't you give me a discount?,negative,suspicion,,casual,no,matched,Pleading with frustration — rhetorical discount request,money,neutral,2,original,2026-04-23
+WZ-T-0071,Wetin you wan buy?,What do you want to buy?,neutral,neutral,,casual,no,matched,Seller asking buyer intent,money,neutral,1,original,2026-04-23
+WZ-T-0072,Wetin you dey sell?,What are you selling?,neutral,neutral,,casual,no,matched,Buyer asking seller what they have,money,neutral,1,original,2026-04-23
+WZ-T-0073,Your price fit kill persin,Your price can kill someone,negative,market_energy,,street,no,matched,Rhetorical frustration at extremely high price,money,neutral,3,original,2026-04-23
+WZ-T-0074,Persin no fit buy market from your hand oh?,Someone can't buy something from you oh,negative,market_energy,,street,no,matched,Rhetorical frustration — prices too high for anyone to afford,money,neutral,3,original,2026-04-23
+WZ-T-0075,No send me go village oh,Don't make me broke,negative,suspicion,,street,no,matched,Warning not to drain someone financially,money,neutral,2,original,2026-04-23
+WZ-T-0076,How much be d thing?,How much is it?,neutral,neutral,,casual,no,matched,Casual price inquiry — d is the,money,neutral,1,original,2026-04-23
+WZ-T-0077,No dey owe persin,Don't owe people,neutral,neutral,,casual,no,matched,Advice against owing people — proverb-like,money,neutral,1,original,2026-04-23
+WZ-T-0078,You too beg,You beg too much,negative,anger,,street,no,matched,Frustration at someone who constantly asks for things,money,neutral,2,original,2026-04-23
+WZ-T-0079,Abeg help me transfer money,Please help me transfer money,neutral,neutral,,casual,no,matched,Polite request for transfer help,money,neutral,1,original,2026-04-23
+WZ-T-0080,Transfer no dey go,The transfer is not going through,negative,anger,shock,casual,no,matched,Frustration at failed transfer — very common Lagos fintech pain,money,neutral,2,original,2026-04-23
+WZ-T-0081,Bank never open,The bank hasn't opened yet,neutral,neutral,,casual,no,matched,Stating bank is not yet open,money,neutral,1,original,2026-04-23
+WZ-T-0082,You don pay?,Have you paid?,neutral,neutral,,casual,no,matched,Simple payment confirmation check,money,neutral,1,original,2026-04-23
+WZ-T-0083,Card no dey work oh,My card is not working,negative,anger,shock,casual,no,matched,Frustration at card failure — common fintech pain point,money,neutral,2,original,2026-04-23
+WZ-T-0084,Abeg transfer my money,Please transfer my money,neutral,neutral,,casual,no,matched,Direct request for transfer,money,neutral,1,original,2026-04-23
+WZ-T-0085,I no fit buy am that price,I can't buy it at that price,negative,market_energy,,casual,no,matched,Price negotiation — rejecting current price,money,neutral,2,original,2026-04-23
+WZ-T-0086,No be small money oh,This is not a small amount of money,negative,shock,,casual,no,matched,Expressing that the amount is significant,money,neutral,2,original,2026-04-23
+WZ-T-0087,Money no dey,There is no money,negative,hustle_fatigue,,casual,no,matched,Plain statement — broke,money,neutral,2,original,2026-04-23
+WZ-T-0088,I no fit buy am,I cannot afford it,negative,hustle_fatigue,,casual,no,matched,Simple inability to afford — resigned,money,neutral,1,original,2026-04-23
+WZ-T-0089,You never pay me,You haven't paid me yet,negative,anger,,casual,no,matched,Demanding unpaid debt — direct,money,neutral,2,original,2026-04-23
+WZ-T-0090,Where my money dey?,Where is my money?,negative,anger,,casual,no,matched,Demanding owed money — escalated,money,neutral,3,original,2026-04-23
+WZ-T-0091,E don enter my account,It has entered my account,positive,celebration,,casual,no,matched,Joy at money landing — alert received,money,neutral,3,original,2026-04-23
+WZ-T-0092,Them block my account,They blocked my account,negative,shock,anger,casual,no,matched,Shock at account being frozen — common fintech pain,money,neutral,3,original,2026-04-23
+WZ-T-0093,I go pay you back,I will pay you back,neutral,neutral,,casual,no,matched,Promise to repay debt,money,neutral,1,original,2026-04-23
+WZ-T-0094,When you go pay me?,When are you going to pay me?,negative,anger,suspicion,casual,no,matched,Frustrated creditor demanding repayment timeline,money,neutral,2,original,2026-04-23
+WZ-T-0095,E cheap,It's cheap,positive,market_energy,,casual,no,matched,Positive reaction to affordable price,money,neutral,1,original,2026-04-23
+WZ-T-0096,Make we price am,Let's negotiate the price,neutral,market_energy,,casual,no,matched,Opening price negotiation — very Lagos market,money,neutral,1,original,2026-04-23
+WZ-T-0097,Last price,What's your final price?,neutral,market_energy,,street,no,matched,Final negotiation push — buyer demanding best price,money,neutral,2,original,2026-04-23
+WZ-T-0098,I go manage am,I will make do with it,negative,hustle_fatigue,,casual,no,matched,Accepting something despite it not being ideal,money,neutral,1,original,2026-04-23
+WZ-T-0099,No be here I go find money,This is not where I will make money,negative,pride,,street,no,matched,Rejecting a bad deal with confidence — walking away energy,money,neutral,2,original,2026-04-23
+WZ-T-0100,My account don red,My account is overdrawn,negative,shock,hustle_fatigue,casual,no,matched,Account overdrawn or empty — visual metaphor,money,neutral,3,original,2026-04-23
+WZ-T-0101,My body dey hot,My body is hot — I have a fever,negative,neutral,,casual,no,matched,Physical symptom description — fever,health,neutral,2,original,2026-04-23
+WZ-T-0102,I dey run temperature,I have a fever,negative,neutral,,casual,no,matched,Common Nigerian way of saying fever,health,neutral,2,original,2026-04-23
+WZ-T-0103,My head dey bang,My head is pounding,negative,neutral,,casual,no,matched,Headache description — bang as pain metaphor,health,neutral,2,original,2026-04-23
+WZ-T-0104,E be like say I dey sick,I think I am sick,negative,neutral,,casual,no,matched,Speaker uncertain about illness — self-diagnosis realization register,health,neutral,1,original,2026-04-23
+WZ-T-0105,I no get appetite,I have no appetite,negative,neutral,,casual,no,matched,Loss of appetite — common illness symptom,health,neutral,1,original,2026-04-23
+WZ-T-0106,Belle dey bite me,My stomach is cramping,negative,neutral,,casual,no,matched,Stomach pain — bite as cramp metaphor,health,neutral,2,original,2026-04-23
+WZ-T-0107,Body just dey itch me since,My body has been itching,negative,neutral,,casual,no,matched,Persistent itching — since signals duration,health,neutral,2,original,2026-04-23
+WZ-T-0108,I no fit waka,I cannot walk,negative,hustle_fatigue,,casual,no,matched,Physical weakness preventing movement,health,neutral,2,original,2026-04-23
+WZ-T-0109,My body dey shake,My body is shaking,negative,neutral,,casual,no,matched,Shivering or trembling — fever symptom,health,neutral,2,original,2026-04-23
+WZ-T-0110,I wan go see doctor,I want to go see a doctor,negative,neutral,,casual,no,matched,Seeking medical help,health,neutral,1,original,2026-04-23
+WZ-T-0111,Doctor tell me say I need lie down,The doctor told me I need to rest,neutral,neutral,,casual,no,matched,Reporting doctor's instruction,health,neutral,1,original,2026-04-23
+WZ-T-0112,I wan shook injection,I want to receive an injection,neutral,neutral,,casual,no,matched,Requesting injection — shook is Nigerian medical slang for receiving an injection,health,neutral,1,original,2026-04-23
+WZ-T-0113,Nurse shook me injection,The nurse gave me an injection,neutral,neutral,,casual,no,matched,Reporting received injection,health,neutral,1,original,2026-04-23
+WZ-T-0114,You go take the drugs morning and night,Take the medication morning and night,neutral,neutral,,casual,no,matched,Medication instruction — someone advising another person,health,neutral,1,original,2026-04-23
+WZ-T-0115,No go overdose oh,Don't overdose on medication,neutral,neutral,,casual,no,matched,Health warning — instructing someone not to take too much medication,health,neutral,2,original,2026-04-23
+WZ-T-0116,Go take medicine,Go take your medicine,neutral,neutral,,casual,no,matched,Direct instruction to another person to take medication,health,neutral,1,original,2026-04-23
+WZ-T-0117,My body just weak,My body is completely weak,negative,hustle_fatigue,,casual,no,matched,General physical weakness,health,neutral,2,original,2026-04-23
+WZ-T-0118,My pikin for belle dey move,My baby in my womb is moving,positive,joy,,casual,no,matched,Maternal health — baby movement in womb,health,female,2,original,2026-04-23
+WZ-T-0119,My belle don dey big,My belly is getting big — pregnancy,neutral,neutral,,casual,no,matched,Pregnancy progression — belly growing — context is pregnant woman,health,female,1,original,2026-04-23
+WZ-T-0120,I wan go antenatal,I want to go for antenatal care,neutral,neutral,,casual,no,matched,Seeking maternal healthcare,health,female,1,original,2026-04-23
+WZ-T-0121,I wan die,I feel absolutely terrible — dramatic illness,negative,hustle_fatigue,,casual,no,matched,Dramatic illness expression — not literal — intensity reflects physical misery,health,neutral,3,original,2026-04-23
+WZ-T-0122,I wan faint,I feel dizzy and about to faint,negative,neutral,,casual,no,matched,Physical drowsiness and dizziness — not dramatic,health,neutral,3,original,2026-04-23
+WZ-T-0123,E go better no worry,It will get better don't worry,positive,neutral,,casual,no,matched,Consolation and encouragement in health context,health,neutral,1,original,2026-04-23
+WZ-T-0124,I like you die,I like you so much,positive,joy,,casual,no,matched,Intense affection — die as intensifier,relationship,neutral,2,original,2026-04-24
+WZ-T-0125,You dey do me somehow,You're behaving strangely toward me,negative,suspicion,,casual,no,matched,Feeling someone is acting differently or hiding something,relationship,neutral,2,original,2026-04-24
+WZ-T-0126,I miss you die,I miss you so much,positive,craving,,casual,no,matched,Intense longing for someone absent,relationship,neutral,3,original,2026-04-24
+WZ-T-0127,You too like gist,You love gossip too much,negative,contempt,,casual,no,matched,Calling out someone who talks too much,social,neutral,2,original,2026-04-24
+WZ-T-0128,Gist me,Tell me the gossip,positive,joy,,casual,no,matched,Requesting gossip or news excitedly,social,neutral,2,original,2026-04-24
+WZ-T-0129,Who tell you?,Who told you?,negative,suspicion,anger,casual,no,matched,Challenging how someone got information,social,neutral,2,original,2026-04-24
+WZ-T-0130,E no concern you,It doesn't concern you,negative,anger,,casual,no,matched,Shutting someone out of a matter,social,neutral,2,original,2026-04-24
+WZ-T-0131,Face your front abeg,Mind your own business please,negative,anger,,casual,no,matched,Direct boundary setting — telling someone to stop interfering,social,neutral,2,original,2026-04-24
+WZ-T-0132,You too sabi,You know alot/ you know very well,positive,neutral,,street,no,matched,Calling out someone who knows something well,social,neutral,2,original,2026-04-24
+WZ-T-0133,Na you sabi,That's your business — dismissal,neutral,neutral,,casual,no,matched,Washing hands of someone's decision,social,neutral,1,original,2026-04-24
+WZ-T-0134,I no send,I don't care,negative,forming,,street,no,matched,Complete indifference — deliberate unbothered energy,social,neutral,2,original,2026-04-24
+WZ-T-0135,You don do am,You've done it — impressed,positive,celebration,,casual,no,matched,Impressed acknowledgement of achievement,social,neutral,2,original,2026-04-24
+WZ-T-0136,E don do am,He/she has done it,positive,celebration,,casual,no,matched,Third person achievement acknowledgement,social,neutral,2,original,2026-04-24
+WZ-T-0137,Who you epp?,who cares about you? — dismissal,negative,forming,,street,yes,matched,Rhetorical — implying someone's actions are useless,social,neutral,3,original,2026-04-24
+WZ-T-0138,You too like follow follow,You follow others too easily,negative,suspicion,,casual,no,matched,Criticising someone who copies others,social,neutral,2,original,2026-04-24
+WZ-T-0139,I nor go lie,I won't lie — honestly,neutral,neutral,,casual,no,matched,Truthfulness signal before statement,social,neutral,1,original,2026-04-24
+WZ-T-0140,On God,I swear — truthfulness emphasis,neutral,neutral,,street,no,matched,Emphasis on truth — swearing by God,social,neutral,1,original,2026-04-24
+WZ-T-0141,You too talk,You talk too much,negative,anger,,casual,no,matched,Frustration at someone who over-explains or gossips,social,neutral,2,original,2026-04-24
+WZ-T-0142,No vex,Don't be angry,neutral,neutral,,casual,no,matched,Calming someone down — apology adjacent,social,neutral,1,original,2026-04-24
+WZ-T-0143,when my story go change,I am angry,negative,anger,,casual,no,matched,Stating anger plainly,social,neutral,2,original,2026-04-24
+WZ-T-0144,You do me strong thing,You did something serious to me,negative,betrayal,,casual,no,matched,Feeling seriously wronged by someone,relationship,neutral,3,original,2026-04-24
+WZ-T-0145,We go see,We will meet — threat or promise,neutral,suspicion,,street,no,matched,Ambiguous — can be threat or general promise depending on tone,social,neutral,2,original,2026-04-24
+WZ-T-0146,E be your mate?,Is he/she your equal?,negative,pride,,street,no,matched,Dismissing someone as beneath you,social,neutral,3,original,2026-04-24
+WZ-T-0147,You and who?,You and who exactly? — challenge,negative,anger,,street,no,matched,Challenging someone who is being confrontational,conflict,neutral,3,original,2026-04-24
+WZ-T-0148,You wan do am?,Do you want to do it? — confrontational,negative,anger,,street,no,matched,Aggressive challenge — are you sure you want this confrontation,conflict,neutral,3,original,2026-04-24
+WZ-T-0149,I dey grind,I am working hard,positive,hustle_energy,pride,street,no,matched,Hustling with determination,work,neutral,2,original,2026-04-24
+WZ-T-0150,E no easy,It is not easy,negative,hustle_fatigue,,casual,no,matched,Acknowledging difficulty of work or life,work,neutral,2,original,2026-04-24
+WZ-T-0151,The work don too much,The work is too much,negative,hustle_fatigue,,casual,no,matched,Overwhelmed by workload,work,neutral,2,original,2026-04-24
+WZ-T-0152,My oga dey stress me,My boss is stressing me,negative,anger,hustle_fatigue,casual,no,matched,Work stress from superior,work,neutral,2,original,2026-04-24
+WZ-T-0153,I don tire,I am exhausted,negative,hustle_fatigue,,casual,no,matched,Complete exhaustion,work,neutral,3,original,2026-04-24
+WZ-T-0154,When e go better?,When will things improve?,negative,craving,,casual,no,matched,Longing for better circumstances,work,neutral,2,original,2026-04-24
+WZ-T-0155,My time go come,My time will come,positive,pride,,casual,no,matched,Self-belief and patience — breakthrough coming,work,neutral,2,original,2026-04-24
+WZ-T-0156,I go make am,I will make it,positive,pride,,casual,no,matched,Determination and self-belief,work,neutral,3,original,2026-04-24
+WZ-T-0157,Na hustle dey pay,It's hustle that pays,positive,celebration,,street,no,matched,Affirming value of hard work,work,neutral,2,original,2026-04-24
+WZ-T-0158,E don pay,It has paid off,positive,celebration,,casual,no,matched,Work or effort has yielded results,work,neutral,3,original,2026-04-24
+WZ-T-0159,I just dey manage,I am just managing,negative,hustle_fatigue,,casual,no,matched,Barely getting by — surviving not thriving,work,neutral,2,original,2026-04-24
+WZ-T-0160,Nothing dey happen,Nothing is happening — stagnant,negative,hustle_fatigue,,casual,no,matched,Frustration at lack of progress,work,neutral,2,original,2026-04-24
+WZ-T-0161,E go work,It will work out,positive,prayer_gratitude,,casual,no,matched,Faith that things will improve,work,neutral,1,original,2026-04-24
+WZ-T-0162,I dey try my best,I am trying my best,neutral,hustle_fatigue,,casual,no,matched,Effort acknowledgement under pressure,work,neutral,2,original,2026-04-24
+WZ-T-0163,Nobody go stop me,Nobody will stop me,positive,pride,,street,no,matched,Fierce determination,work,neutral,3,original,2026-04-24
+WZ-T-0164,They no want make we shine,They don't want us to succeed,negative,betrayal,suspicion,street,no,matched,Feeling of systemic opposition,work,neutral,3,original,2026-04-24
+WZ-T-0165,I go show them,I will prove them wrong,positive,pride,,street,no,matched,Motivation from opposition,work,neutral,3,original,2026-04-24
+WZ-T-0166,E don reach my turn,It is now my turn,positive,celebration,,casual,no,matched,Sense of deserved breakthrough arriving,work,neutral,3,original,2026-04-24
+WZ-T-0167,I no come this far to fail,I did not come this far to fail,positive,pride,hustle_fatigue,street,no,matched,Resilience under pressure,work,neutral,3,original,2026-04-24
+WZ-T-0168,We outside,We are out — celebrating,positive,celebration,,street,no,matched,Going out celebrating a win,social,neutral,2,original,2026-04-24
+WZ-T-0169,Hustle no dey finish,The hustle never ends,negative,hustle_fatigue,,street,no,matched,Resigned acceptance of endless work,work,neutral,2,original,2026-04-24
+WZ-T-0170,I wan rest,I want to rest,negative,hustle_fatigue,,casual,no,matched,Need for rest after sustained effort,work,neutral,2,original,2026-04-24
+WZ-T-0171,Lagos no dey carry last,Lagos never comes last,positive,pride,,street,no,matched,Lagos pride and competitive spirit,social,neutral,3,original,2026-04-24
+WZ-T-0172,E don cast,It has been exposed/ruined,negative,shock,betrayal,street,no,matched,Something embarrassing has been revealed,social,neutral,3,original,2026-04-24
+WZ-T-0173,I don blow,I have made it in life,positive,celebration,pride,street,no,matched,Breakthrough achievement — made it big,work,neutral,3,original,2026-04-24
+WZ-T-0174,I wan chop,I want to eat,neutral,craving,,casual,no,matched,Hunger — wanting food,food,neutral,1,original,2026-04-24
+WZ-T-0175,The food don ready,The food is ready,positive,joy,,casual,no,matched,Announcing meal is prepared,food,neutral,2,original,2026-04-24
+WZ-T-0176,This food sweet die,This food is delicious,positive,joy,,casual,no,matched,Intense food enjoyment,food,neutral,3,original,2026-04-24
+WZ-T-0177,I no like this food,I don't like this food,negative,neutral,,casual,no,matched,Simple food dislike,food,neutral,1,original,2026-04-24
+WZ-T-0178,Wetin we go chop?,What are we going to eat?,neutral,neutral,,casual,no,matched,Asking about meal plans,food,neutral,1,original,2026-04-24
+WZ-T-0179,I dey hungry die,I am extremely hungry,negative,craving,,casual,no,matched,Intense hunger,food,neutral,3,original,2026-04-24
+WZ-T-0180,The pepper too much,There is too much pepper,negative,neutral,,casual,no,matched,Food complaint about spice level,food,neutral,1,original,2026-04-24
+WZ-T-0181,Abeg cook,Please cook,neutral,neutral,,casual,no,matched,Requesting someone to cook,food,neutral,1,original,2026-04-24
+WZ-T-0182,I go cook,I will cook,neutral,neutral,,casual,no,matched,Committing to cooking,food,neutral,1,original,2026-04-24
+WZ-T-0183,You wan fight?,Do you want to fight?,negative,anger,,street,no,matched,Direct confrontation challenge,conflict,neutral,3,original,2026-04-24
+WZ-T-0184,Try am,Try it — dare,negative,anger,,street,no,matched,Daring someone to act — aggressive warning,conflict,neutral,3,original,2026-04-24
+WZ-T-0185,You dey craze?,Are you crazy?,negative,anger,shock,street,no,matched,Disbelief at someone's behavior,conflict,neutral,3,original,2026-04-24
+WZ-T-0186,Leave me jare,Leave me alone,negative,anger,,casual,no,matched,Demanding to be left alone,conflict,neutral,2,original,2026-04-24
+WZ-T-0187,You go hear am,You will see the negative effect,negative,anger,suspicion,street,no,matched,Implicit threat — you will face consequences,conflict,neutral,3,original,2026-04-24
+WZ-T-0188,Na lie,That's a lie,negative,anger,suspicion,casual,no,matched,Flat denial of something said,conflict,neutral,2,original,2026-04-24
+WZ-T-0189,You dey lie,You are lying,negative,anger,,casual,no,matched,Direct accusation of lying,conflict,neutral,2,original,2026-04-24
+WZ-T-0190,I no do am,I didn't do it,neutral,neutral,,casual,no,matched,Denial of action,conflict,neutral,1,original,2026-04-24
+WZ-T-0191,Na you do am,You did it,negative,anger,,casual,no,matched,Direct accusation,conflict,neutral,2,original,2026-04-24
+WZ-T-0192,E don finish,It is finished — done,neutral,neutral,,casual,no,matched,Something has ended or been completed,life,neutral,1,original,2026-04-24
+WZ-T-0193,Na so e be,That is how it is,neutral,neutral,,casual,no,matched,Acceptance of a situation,life,neutral,1,original,2026-04-24
+WZ-T-0194,God dey,God is there — reassurance,positive,prayer_gratitude,,casual,no,matched,Faith-based reassurance,faith,neutral,1,original,2026-04-24
+WZ-T-0195,I go pray for you,I will pray for you,positive,prayer_gratitude,,casual,no,matched,Offering spiritual support,faith,neutral,1,original,2026-04-24
+WZ-T-0196,Make God help us,May God help us,positive,prayer_gratitude,,casual,no,matched,Collective prayer expression,faith,neutral,1,original,2026-04-24
+WZ-T-0197,I don chop,I have eaten,positive,joy,,casual,no,matched,Satisfied after eating,food,neutral,1,original,2026-04-24
+WZ-T-0198,Water don finish,The water is finished,neutral,neutral,,casual,no,matched,Stating water has run out,life,neutral,1,original,2026-04-24
+WZ-T-0199,You gats wise up,You need to wise up,neutral,neutral,,street,no,matched,Firm advice — warning someone to be more alert and streetwise — cautionary not angry,social,neutral,2,original,2026-04-24
+WZ-T-0200,Body go tell you,Your body will show the consequences,negative,hustle_fatigue,,street,no,matched,Body will eventually reveal the effects of your actions — warning,life,neutral,2,original,2026-04-24
+WZ-T-0201,you don do am?,have you done it?,neutral,neutral,,casual,no,matched,Question checking if an action has been completed — no strong emotional charge,life,neutral,1,original,2026-02-27
+WZ-T-0202,You never see thank you na em you dey find very much,You have not seen basic gratitude yet you want more,negative,forming,,casual,yes,matched,Sarcasm about ingratitude — someone ungrateful expecting more,social,neutral,3,original,2026-04-27
+WZ-T-0203,You go hear am,You will face consequences,negative,anger,,street,yes,matched,Implicit threat said casually but means serious consequence coming,conflict,neutral,3,original,2026-04-27
+WZ-T-0204,Feel at home feel at home na so visitor take dey spoil television,Make yourself at home is how visitors end up ruining things,negative,sarcasm,,proverbial,yes,matched,Proverbial sarcasm about guests overstepping boundaries,social,neutral,2,original,2026-04-27
+WZ-T-0205,No cut people off when your account balance no reach to buy knife,Do not act big when you are broke,negative,sarcasm,,proverbial,yes,matched,Proverbial sarcasm targeting financial pretension,money,neutral,3,original,2026-04-27
+WZ-T-0206,Today newspaper na tomorrow suya wrap,Today fame is temporary,negative,sarcasm,,proverbial,yes,matched,Sarcastic take on hype and temporary relevance,social,neutral,2,original,2026-04-27
+WZ-T-0207,Cow wey dey hurry to go America go come back as corn beef,Rushing into bad decisions has consequences,negative,sarcasm,,proverbial,yes,matched,Proverbial warning against rushing — sarcastic delivery,life,neutral,3,original,2026-04-27
+WZ-T-0208,Person wey dey sleep with itchy anus de wake up with smelly fingers,Actions have consequences you cannot avoid,negative,sarcasm,,proverbial,yes,matched,Proverbial sarcastic warning about inevitable consequences,life,neutral,3,original,2026-04-27
+WZ-T-0209,You go dey trust man,This is what you get for trusting a man,negative,betrayal,,street,no,matched,Betrayal by a man — warning against male trust,relationship,neutral,3,original,2026-04-27
+WZ-T-0210,You go dey trust Adam,This is what trusting a man gets you,negative,betrayal,,street,no,matched,Adam as symbolic reference for all men — deeper betrayal register,relationship,neutral,3,original,2026-04-27
+WZ-T-0211,You go dey trust woman,This is what you get for trusting a woman,negative,betrayal,,street,no,matched,Betrayal by a woman,relationship,neutral,3,original,2026-04-27
+WZ-T-0212,You go dey trust Eve,This is what trusting a woman gets you,negative,betrayal,,street,no,matched,Eve as symbolic reference for all women — deeper betrayal register,relationship,neutral,3,original,2026-04-27
+WZ-T-0213,Na my person do me this thing,My own trusted person did this to me,negative,betrayal,,casual,no,matched,Betrayal from someone close — my person signals trusted inner circle,relationship,neutral,3,original,2026-04-27
+WZ-T-0214,I trust am with my life,I trusted them completely and was betrayed,negative,betrayal,,casual,no,matched,Past tense implies trust was broken — deep betrayal,relationship,neutral,3,original,2026-04-27
+WZ-T-0215,Snake dey inside grass,Danger hides among trusted people,negative,betrayal,suspicion,proverbial,no,matched,Proverbial warning about hidden enemies in trusted circles,social,neutral,3,original,2026-04-27
+WZ-T-0216,Na who dey near you go wound you,Those closest to you will hurt you,negative,betrayal,,proverbial,no,matched,Proverbial — betrayal comes from close relationships not strangers,relationship,neutral,3,original,2026-04-27
+WZ-T-0217,I dey carry belle,I am pregnant,positive,joy,,casual,no,matched,Announcing pregnancy — belly carrying metaphor,health,female,2,original,2026-05-05
+WZ-T-0218,My belle don show,My pregnancy is showing now,positive,joy,,casual,no,matched,Pregnancy becoming visible — social announcement register,health,female,2,original,2026-05-05
+WZ-T-0219,I dey feel nausea since morning,I have been feeling nauseous since morning,negative,neutral,,casual,no,matched,Morning sickness description — very common maternal complaint,health,female,2,original,2026-05-05
+WZ-T-0220,My back dey kill me,My back is killing me — pregnancy pain,negative,hustle_fatigue,,casual,no,matched,Pregnancy back pain — female speaker context,health,female,3,original,2026-05-05
+WZ-T-0221,I no fit sleep since third trimester start,I haven't been able to sleep since the third trimester began,negative,hustle_fatigue,,casual,no,matched,Third trimester insomnia — very common maternal complaint,health,female,2,original,2026-05-05
+WZ-T-0222,Midwife tell me say pikin dey head down,The midwife told me the baby is in head-down position,positive,joy,prayer_gratitude,casual,no,matched,Positive positioning news from midwife — relief and gratitude,health,female,2,original,2026-05-05
+WZ-T-0223,My breast dey pain me since I born,My breasts have been painful since I gave birth,negative,neutral,,casual,no,matched,Postpartum breast pain — breastfeeding context,health,female,2,original,2026-05-05
+WZ-T-0224,I don born oh,I have given birth,positive,celebration,prayer_gratitude,casual,no,matched,Birth announcement — overwhelming joy and relief,health,female,3,original,2026-05-05
+WZ-T-0225,Them do me CS,They did a caesarean section on me,neutral,neutral,,casual,no,matched,C-section report — matter of fact postpartum statement,health,female,2,original,2026-05-05
+WZ-T-0226,My pikin no wan suck breast,My baby is refusing to breastfeed,negative,hustle_fatigue,suspicion,casual,no,matched,Breastfeeding difficulty — new mother concern,health,female,2,original,2026-05-05
+WZ-T-0227,Postnatal dey stress me,Postnatal care is stressing me out,negative,hustle_fatigue,,casual,no,matched,Postpartum overwhelm — new mother exhaustion,health,female,2,original,2026-05-05
+WZ-T-0228,I dey feel like weeping since I born,I have been feeling like crying since I gave birth,negative,hustle_fatigue,,casual,no,matched,Postpartum emotional vulnerability — possible baby blues or PPD,health,female,3,original,2026-05-05
+WZ-T-0229,Nobody tell me say after birth go hard like this,Nobody told me postpartum would be this difficult,negative,betrayal,hustle_fatigue,casual,no,matched,Postpartum shock — feeling unwarned and overwhelmed,health,female,3,original,2026-05-05
+WZ-T-0230,My period don show,My period has arrived,neutral,neutral,,casual,no,matched,Menstruation arrival — neutral factual statement,health,female,1,original,2026-05-05
+WZ-T-0231,Cramp dey wound me,Cramps are killing me,negative,neutral,,casual,no,matched,Period cramp pain — very common female health complaint,health,female,3,original,2026-05-05
+WZ-T-0232,My period too much this month,My period flow is too heavy this month,negative,neutral,,casual,no,matched,Heavy menstrual bleeding — concern about flow,health,female,2,original,2026-05-05
+WZ-T-0233,I never see my period this month,I haven't seen my period this month,negative,suspicion,,casual,no,matched,Missed period — anxiety and uncertainty,health,female,2,original,2026-05-05
+WZ-T-0234,Abeg which painkiller good for cramp?,Please which painkiller is good for cramps?,negative,neutral,,casual,no,matched,Seeking advice for period pain — direct health question,health,female,2,original,2026-05-05
+WZ-T-0235,My flow don stop,My period has stopped,positive,neutral,,casual,no,matched,End of period — relief statement,health,female,1,original,2026-05-05
+WZ-T-0236,I dey feel somehow since last week,I have been feeling off since last week,negative,hustle_fatigue,,casual,no,matched,Vague low mood — female speaker seeking support,health,female,2,original,2026-05-05
+WZ-T-0237,I just dey cry anyhow,I just keep crying for no reason,negative,hustle_fatigue,,casual,no,matched,Unexplained emotional tears — possible depression or overwhelm,health,female,3,original,2026-05-05
+WZ-T-0238,My heart dey heavy,My heart feels heavy,negative,hustle_fatigue,,casual,no,matched,Emotional weight and sadness — intimate register,health,female,2,original,2026-05-05
+WZ-T-0239,I no fit talk wetin I dey feel,I cannot explain what I am feeling,negative,neutral,,casual,no,matched,Difficulty articulating emotions — mental health register,health,female,2,original,2026-05-05
+WZ-T-0240,E be like say anxiety wan catch me,It feels like anxiety is catching up with me,negative,hustle_fatigue,,casual,no,matched,Anxiety awareness — female speaker identifying her state,health,female,2,original,2026-05-05
+WZ-T-0241,I no wan hear noise today at all,I don't want to hear any noise today at all,negative,hustle_fatigue,,casual,no,matched,Sensory overwhelm and exhaustion — need for quiet,health,female,2,original,2026-05-05
+WZ-T-0242,I need make somebody hold me,I need someone to hold me,negative,craving,,casual,no,matched,Craving physical comfort and support — vulnerable emotional state,health,female,3,original,2026-05-05
+WZ-T-0243,I don dey feel am since after I lost am,I have been feeling it since after I lost the pregnancy,negative,betrayal,hustle_fatigue,casual,no,matched,Grief after miscarriage — deeply personal loss register,health,female,3,original,2026-05-05
+WZ-T-0244,My mama health no dey fine since last month,My mother's health has not been good since last month,negative,neutral,hustle_fatigue,casual,no,matched,Caring for sick parent — daughter as caregiver,health,female,2,original,2026-05-05
+WZ-T-0245,I dey carry my pikin go hospital every week,I take my child to the hospital every week,negative,hustle_fatigue,,casual,no,matched,Chronic child illness burden — mother as caregiver,health,female,2,original,2026-05-05
+WZ-T-0246,Doctor say make she come back for checkup,The doctor said she should come back for a checkup,neutral,neutral,,casual,no,matched,Reporting doctor's instruction for dependent — caregiver role,health,female,1,original,2026-05-05
+WZ-T-0247,The drugs don finish again,The medications have run out again,negative,hustle_fatigue,,casual,no,matched,Medication supply anxiety — caregiver managing chronic condition,health,female,2,original,2026-05-05
+WZ-T-0248,I dey run up and down for this hospital since morning,I have been running around this hospital since morning,negative,hustle_fatigue,,street,no,matched,Hospital navigation exhaustion — caregiver in Nigerian hospital system,health,female,3,original,2026-05-05
+WZ-T-0249,Make I ask doctor wetin cause am,Let me ask the doctor what caused it,neutral,neutral,,casual,no,matched,Advocating for patient — caregiver seeking medical explanation,health,female,1,original,2026-05-05
+WZ-T-0250,I wan go do pap smear,I want to go for a pap smear,neutral,neutral,,casual,no,matched,Seeking preventive gynecological care,health,female,1,original,2026-05-05
+WZ-T-0251,I dey feel pain for down,I am feeling pain down there — pelvic or vaginal pain,negative,neutral,,casual,no,matched,Pelvic pain — indirect but clear female health complaint,health,female,2,original,2026-05-05
+WZ-T-0252,My discharge change colour,My discharge has changed colour,negative,suspicion,,casual,no,matched,Noticing change in vaginal discharge — seeking explanation,health,female,2,original,2026-05-05
+WZ-T-0253,I think say I get infection,I think I have an infection,negative,suspicion,,casual,no,matched,Self-diagnosis of possible infection — common female concern,health,female,2,original,2026-05-05
+WZ-T-0254,Them say make I do scan,They said I should do an ultrasound scan,neutral,neutral,,casual,no,matched,Ultrasound referral — standard health instruction,health,female,1,original,2026-05-05
+WZ-T-0255,My fibroid dey pain me,My fibroid is causing me pain,negative,hustle_fatigue,,casual,no,matched,Fibroid pain — very common Nigerian women's health issue,health,female,3,original,2026-05-05
+WZ-T-0256,Doctor say my fibroid don grow,The doctor said my fibroid has grown,negative,shock,hustle_fatigue,casual,no,matched,Shock at fibroid growth news from doctor,health,female,3,original,2026-05-05
+WZ-T-0257,I dey manage the fibroid pain everyday,I manage the fibroid pain every day,negative,hustle_fatigue,,casual,no,matched,Chronic pain management — daily resilience,health,female,2,original,2026-05-05
+WZ-T-0258,I don do the test — result dey negative,I have done the test — the result is negative,positive,joy,prayer_gratitude,casual,no,matched,Negative test result — relief and gratitude,health,female,2,original,2026-05-05
+WZ-T-0259,My dear rest oh,My dear please rest,positive,neutral,,casual,no,matched,Advice from one woman to another to rest — support register,health,female,1,original,2026-05-05
+WZ-T-0260,Drink water my sister,Drink water my sister — hydration advice,positive,neutral,,casual,no,matched,Hydration reminder — women supporting each other register,health,female,1,original,2026-05-05
+WZ-T-0261,Have you eat today?,Have you eaten today?,neutral,neutral,,casual,no,matched,Care check about eating — woman to woman concern,health,female,1,original,2026-05-05
+WZ-T-0262,Your body no be machine abeg,Your body is not a machine please — take care of yourself,negative,hustle_fatigue,,casual,no,matched,Reminding someone to rest and care for themselves,health,female,2,original,2026-05-05
+WZ-T-0263,You too dey overwork yourself,You overwork yourself too much,negative,hustle_fatigue,,casual,no,matched,Concerned observation about overworking — caring rebuke,health,female,2,original,2026-05-05
+WZ-T-0264,He never call me back,He hasn't called me back,negative,suspicion,,casual,no,matched,Waiting for callback — romantic anxiety register,relationship,female,2,original,2026-05-05
+WZ-T-0265,This man dey take me for granted,This man takes me for granted,negative,anger,betrayal,casual,no,matched,Feeling undervalued in relationship — direct statement,relationship,female,3,original,2026-05-05
+WZ-T-0266,I don tire for this relationship,I am tired of this relationship,negative,hustle_fatigue,,casual,no,matched,Relationship exhaustion — worn down by repeated patterns,relationship,female,3,original,2026-05-05
+WZ-T-0267,He say e love me but action no show,He says he loves me but his actions don't show it,negative,betrayal,suspicion,casual,no,matched,Gap between words and actions — female relationship frustration,relationship,female,3,original,2026-05-05
+WZ-T-0268,I just want make somebody appreciate me,I just want someone to appreciate me,negative,craving,,casual,no,matched,Longing for appreciation — emotional vulnerability,relationship,female,2,original,2026-05-05
+WZ-T-0269,We been dey argue since yesterday,We have been arguing since yesterday,negative,anger,,casual,no,matched,Ongoing argument — relationship tension,relationship,female,2,original,2026-05-05
+WZ-T-0270,I forgive am but I no forget,I forgave him but I haven't forgotten,negative,betrayal,,casual,no,matched,Complex forgiveness without forgetting — female emotional register,relationship,female,2,original,2026-05-05
+WZ-T-0271,E no easy to trust person again,It is not easy to trust someone again,negative,betrayal,suspicion,casual,no,matched,Post-betrayal difficulty with trust,relationship,female,2,original,2026-05-05
+WZ-T-0272,My heart dey for am but my head say no,My heart is with him but my head says no,negative,hustle_fatigue,suspicion,casual,no,matched,Heart vs head conflict — classic female romantic dilemma,relationship,female,3,original,2026-05-05
+WZ-T-0273,He bring me flower today after everything wey e do,He brought me flowers today after everything he did,neutral,contempt,,casual,no,matched,Sarcasm — gesture too small for offense committed,relationship,female,2,original,2026-05-05
+WZ-T-0274,We don talk am settle,We have talked and settled it,positive,joy,,casual,no,matched,Reconciliation after conflict — relief,relationship,female,2,original,2026-05-05
+WZ-T-0275,Na my person this,This is my person — deep loyalty,positive,celebration,pride,casual,no,matched,Claiming someone as your person — love and ownership,relationship,female,2,original,2026-05-05
+WZ-T-0276,God answer my prayer oh,God answered my prayer,positive,prayer_gratitude,,casual,no,matched,Testimony of answered prayer — female faith register,faith,female,3,original,2026-05-05
+WZ-T-0277,I been dey pray for this for long,I have been praying for this for a long time,positive,prayer_gratitude,joy,casual,no,matched,Long-awaited prayer answered — deep gratitude,faith,female,3,original,2026-05-05
+WZ-T-0278,God no go shame me,God will not put me to shame,positive,prayer_gratitude,pride,casual,no,matched,Faith declaration against shame — common female prayer register,faith,female,2,original,2026-05-05
+WZ-T-0279,I carry am go God hand,I have placed it in God's hands,positive,prayer_gratitude,,casual,no,matched,Surrendering a burden to God — releasing control,faith,female,2,original,2026-05-05
+WZ-T-0280,God see wetin dem do me,God sees what they did to me,negative,prayer_gratitude,betrayal,casual,no,matched,Appealing to God as witness after being wronged,faith,female,3,original,2026-05-05
+WZ-T-0281,My God no go fail me,My God will not fail me,positive,prayer_gratitude,,casual,no,matched,Faith affirmation under pressure — strong conviction,faith,female,3,original,2026-05-05
+WZ-T-0282,E be God wey do am,It is God who did it,positive,prayer_gratitude,celebration,casual,no,matched,Attributing breakthrough to God — testimony register,faith,female,3,original,2026-05-05
+WZ-T-0283,I go fast and pray for am,I will fast and pray about it,neutral,prayer_gratitude,,casual,no,matched,Committing to fasting and prayer — spiritual action,faith,female,2,original,2026-05-05
+WZ-T-0284,These people dey talk too much for my matter,These people talk too much about my business,negative,anger,,casual,no,matched,Frustration at gossip about oneself — female social complaint,social,female,2,original,2026-05-05
+WZ-T-0285,She no like me from day one,She has never liked me from day one,negative,betrayal,suspicion,casual,no,matched,Longstanding dislike — female social observation,social,female,2,original,2026-05-05
+WZ-T-0286,She too fake,She is too fake,negative,contempt,,street,no,matched,Calling out fakeness — female social judgment,social,female,2,original,2026-05-05
+WZ-T-0287,I no get time for fake friends,I don't have time for fake friends,negative,forming,,street,no,matched,Rejecting fake friendships — boundary statement,social,female,2,original,2026-05-05
+WZ-T-0288,My girls we move together,My girls we go together,positive,celebration,,street,no,matched,Female solidarity and group loyalty — hype energy,social,female,3,original,2026-05-05
+WZ-T-0289,She carry my matter go tell everybody,She took my matter and told everybody,negative,betrayal,anger,casual,no,matched,Betrayal of confidence — gossip betrayal,social,female,3,original,2026-05-05
+WZ-T-0290,I no send any of them,I don't care about any of them,negative,forming,,street,no,matched,Complete indifference to social group — deliberate unbothered energy,social,female,2,original,2026-05-05
+WZ-T-0291,See as she come dress,Look at how she came dressed,negative,neutral,,street,no,matched,Commenting on someone's appearance — social judgment,social,female,2,original,2026-05-05
+WZ-T-0292,She too dey form she no dey collect advice,She is too proud to take advice,negative,forming,anger,casual,no,matched,Calling out pride that blocks growth,social,female,2,original,2026-05-05
+WZ-T-0293,We are not on the same level abeg,We are not on the same level please,negative,pride,,street,no,matched,Asserting superiority — distancing from someone,social,female,2,original,2026-05-05
+WZ-T-0294,I dey root for you always,I am always rooting for you,positive,celebration,,casual,no,matched,Female support and encouragement — loyalty register,social,female,2,original,2026-05-05
+WZ-T-0295,You too do anyhow,You behave anyhow — no regard,negative,anger,,casual,no,matched,Rebuking careless behavior — female direct register,social,female,2,original,2026-05-05
+WZ-T-0296,My oga never promote me and I don work there three years,My boss hasn't promoted me and I have worked there three years,negative,betrayal,anger,casual,no,matched,Stagnation and lack of recognition at work — female experience,work,female,3,original,2026-05-05
+WZ-T-0297,They no take woman serious for this office,They do not take women seriously in this office,negative,anger,betrayal,casual,no,matched,Gender discrimination at workplace — direct observation,work,female,3,original,2026-05-05
+WZ-T-0298,I get am because I work for am not because of man,I got it because I worked for it not because of a man,positive,pride,,street,no,matched,Asserting independent achievement — rejecting patronage narrative,work,female,3,original,2026-05-05
+WZ-T-0299,I dey balance work and pikin and e no easy,I am balancing work and child and it is not easy,negative,hustle_fatigue,,casual,no,matched,Working mother burden — double shift reality,work,female,3,original,2026-05-05
+WZ-T-0300,I wan leave this work,I want to leave this job,negative,hustle_fatigue,,casual,no,matched,Desire to quit — work dissatisfaction,work,female,2,original,2026-05-05
+WZ-T-0301,I build this thing myself from nothing,I built this thing myself from nothing,positive,pride,celebration,street,no,matched,Female founder pride — self-made achievement,work,female,3,original,2026-05-05
+WZ-T-0302,Nobody go give you anything you go take am,Nobody will give you anything you have to take it,positive,pride,hustle_fatigue,street,no,matched,Female hustle philosophy — take what is yours,work,female,3,original,2026-05-05
+WZ-T-0303,E no easy to be woman for this industry,It is not easy to be a woman in this industry,negative,hustle_fatigue,anger,casual,no,matched,Navigating male-dominated space — female industry reflection,work,female,2,original,2026-05-05
+WZ-T-0304,My time go come and dem go know my name,My time will come and they will know my name,positive,pride,craving,street,no,matched,Female ambition and patience — determination under invisibility,work,female,3,original,2026-05-05
+WZ-T-0305,I dey carry too much for my chest,I am carrying too much in my chest — emotional burden,negative,hustle_fatigue,,casual,no,matched,Emotional weight stored internally — female burden register,emotion,female,3,original,2026-05-05
+WZ-T-0306,I just want make somebody understand me,I just want someone to understand me,negative,craving,,casual,no,matched,Deep desire to be understood — emotional longing,emotion,female,2,original,2026-05-05
+WZ-T-0307,I dey smile for outside but inside different,I carry a smile on the outside but inside is different,negative,hustle_fatigue,hustle_fatigue,casual,no,matched,Masking pain — public smile private suffering,emotion,female,3,original,2026-05-05
+WZ-T-0308,The thing just dey pain me,It just hurts,negative,betrayal,,casual,no,matched,Simple pain acknowledgement — no elaboration needed,emotion,female,2,original,2026-05-05
+WZ-T-0309,I dey happy for real this time,I am genuinely happy this time,positive,joy,,casual,no,matched,Distinguishing real happiness from performed — authentic joy,emotion,female,2,original,2026-05-05
+WZ-T-0310,I cook am with love,I cooked it with love,positive,joy,,casual,no,matched,Pride in cooking with care — female domestic warmth,food,female,2,original,2026-05-05
+WZ-T-0311,Make I check wetin dey pot,Let me check what is in the pot,neutral,neutral,,casual,no,matched,Checking on cooking — domestic female register,food,female,1,original,2026-05-05
+WZ-T-0312,This soup dey sweet because I put heart,This soup is delicious because I put my heart into it,positive,joy,pride,casual,no,matched,Pride in cooking outcome — female culinary satisfaction,food,female,2,original,2026-05-05
+WZ-T-0313,I no know wetin to cook today,I don't know what to cook today,negative,hustle_fatigue,,casual,no,matched,Decision fatigue around cooking — common female domestic pressure,food,female,1,original,2026-05-05
+WZ-T-0314,Abeg show me how you make this stew,Please show me how you make this stew,positive,joy,,casual,no,matched,Learning cooking from another woman — knowledge sharing register,food,female,1,original,2026-05-05
+WZ-T-0315,Life dey stress me but I no go give up,Life is stressing me but I will not give up,negative,hustle_fatigue,pride,casual,no,matched,Resilience statement under pressure — female determination,life,female,3,original,2026-05-05
+WZ-T-0316,Nobody go understand the things wey I don pass,Nobody will understand what I have been through,negative,hustle_fatigue,betrayal,casual,no,matched,Solitary struggle — unseen suffering female register,life,female,3,original,2026-05-05
+WZ-T-0317,I don come far from where I start,I have come far from where I started,positive,pride,celebration,casual,no,matched,Reflecting on personal progress — quiet female pride,life,female,3,original,2026-05-05
+WZ-T-0318,E no always easy to be woman,It is not always easy to be a woman,negative,hustle_fatigue,,casual,no,matched,Reflection on the weight of womanhood — matter of fact,life,female,2,original,2026-05-05
+WZ-T-0319,I dey build my own thing small small,I am building my own thing little by little,positive,pride,craving,casual,no,matched,Quiet ambition building — female founder register,life,female,2,original,2026-05-05
+WZ-T-0320,Thank you Jesus,Thank you Jesus,positive,prayer_gratitude,,casual,no,matched,Simple direct thanksgiving — most common Nigerian female faith expression,faith,female,1,original,2026-05-05
+WZ-T-0321,I just dey testify,I am just testifying — giving testimony,positive,prayer_gratitude,celebration,casual,no,matched,Testimony register — sharing God's goodness publicly,faith,female,3,original,2026-05-05
+WZ-T-0322,God wey do am before go do am again,The God who did it before will do it again,positive,prayer_gratitude,pride,casual,no,matched,Faith declaration based on past testimony — forward-looking,faith,female,3,original,2026-05-05
+WZ-T-0323,I dey grateful for small things,I am grateful for small things,positive,prayer_gratitude,,casual,no,matched,Cultivating gratitude for everyday blessings — quiet faith,faith,female,1,original,2026-05-05
+WZ-T-0324,Everything wey I ask God for don come,Everything I asked God for has come,positive,prayer_gratitude,celebration,casual,no,matched,Complete fulfillment of prayer — overflow of gratitude,faith,female,3,original,2026-05-05
+WZ-T-0325,God know why e happen like this,God knows why it happened this way,positive,prayer_gratitude,hustle_fatigue,casual,no,matched,Finding peace through trust in God's plan despite confusion,faith,female,2,original,2026-05-05
+WZ-T-0326,I thank God say I wake up,I thank God that I woke up,positive,prayer_gratitude,,casual,no,matched,Morning gratitude for life — very common Nigerian devotional expression,faith,female,1,original,2026-05-05
+WZ-T-0327,Na God carry me reach here,It is God who brought me this far,positive,prayer_gratitude,pride,casual,no,matched,Attributing journey to divine guidance — testimony register,faith,female,3,original,2026-05-05
+WZ-T-0328,I go give God all the glory,I will give God all the glory,positive,prayer_gratitude,celebration,casual,no,matched,Dedicating achievement to God — standard Nigerian Christian register,faith,female,2,original,2026-05-05
+WZ-T-0329,Make God protect my pikin,May God protect my child,positive,prayer_gratitude,,casual,no,matched,Maternal prayer for child's protection — intimate faith,faith,female,2,original,2026-05-05
+WZ-T-0330,I dey crave attention now,I am craving attention right now,negative,craving,,casual,no,matched,Honest admission of craving attention — female vulnerability,emotion,female,2,original,2026-05-05
+WZ-T-0331,I wan something sweet,I want something sweet,positive,craving,,casual,no,matched,Food craving — universally relatable female experience,food,female,1,original,2026-05-05
+WZ-T-0332,I dey crave peace,I am craving peace,negative,craving,hustle_fatigue,casual,no,matched,Craving calm after sustained chaos — female burnout register,emotion,female,2,original,2026-05-05
+WZ-T-0333,I wan my own house bad bad,I really want my own house badly,negative,craving,hustle_fatigue,casual,no,matched,Housing craving — material stability desire very common Nigerian female aspiration,life,female,3,original,2026-05-05
+WZ-T-0334,I dey crave better,I am yearning for better,negative,craving,hustle_fatigue,casual,no,matched,General craving for improvement — aspirational restlessness,life,female,2,original,2026-05-05
+WZ-T-0335,I wan chop good food today,I want to eat good food today,positive,craving,joy,casual,no,matched,Food craving with anticipatory joy,food,female,2,original,2026-05-05
+WZ-T-0336,My body dey crave rest,My body is craving rest,negative,craving,hustle_fatigue,casual,no,matched,Physical craving for rest — body speaking,health,female,2,original,2026-05-05
+WZ-T-0337,This price no make sense abeg,This price doesn't make sense please,negative,market_energy,,casual,no,matched,Price frustration — female market negotiation register,money,female,2,original,2026-05-05
+WZ-T-0338,How you take calculate this one?,How did you calculate this one?,negative,market_energy,suspicion,casual,no,matched,Challenging a price with rhetorical suspicion — Lagos market female,money,female,2,original,2026-05-05
+WZ-T-0339,Come down small for me na,Come down a little for me now,neutral,market_energy,,casual,no,matched,Gentle price negotiation request — female buyer register,money,female,1,original,2026-05-05
+WZ-T-0340,You no dey fear God with this price?,Do you not fear God with this price?,negative,sarcasm,market_energy,street,yes,matched,Sarcastic moral appeal in market negotiation — very Nigerian female register,money,female,3,original,2026-05-05
+WZ-T-0341,I dey buy from you every time and you still dey charge me full price?,I buy from you every time and you still charge me full price?,negative,market_energy,anger,casual,no,matched,Loyalty not being rewarded — female market complaint,money,female,2,original,2026-05-05
+WZ-T-0342,Last price I give you na last price,The last price I gave you is the last price,negative,market_energy,pride,street,no,matched,Firm final offer — female seller holding her price,money,female,2,original,2026-05-05
+WZ-T-0343,I go come back when you don reduce am,I will come back when you reduce it,neutral,market_energy,,casual,no,matched,Walking away tactic — classic Lagos market move,money,female,1,original,2026-05-05
+WZ-T-0344,I no send you,I don't care about you — dismissal,negative,forming,,street,no,matched,Cold dismissal — female conflict register,conflict,female,2,original,2026-05-05
+WZ-T-0345,Try me and see,Try me and see what happens,negative,anger,pride,street,no,matched,Warning dare — female asserting she will respond,conflict,female,3,original,2026-05-05
+WZ-T-0346,You think say I be fool?,Do you think I am a fool?,negative,anger,suspicion,casual,no,matched,Challenging disrespect — female direct register,conflict,female,2,original,2026-05-05
+WZ-T-0347,I no dey beg person,I do not beg anyone,negative,pride,,street,no,matched,Pride statement — refusing to lower herself to beg,conflict,female,2,original,2026-05-05
+WZ-T-0348,You go regret am,You will regret it,negative,anger,suspicion,street,no,matched,"Consequence warning — not quite a threat, more a prediction",conflict,female,2,original,2026-05-05
+WZ-T-0349,I go collect wetin belong to me,I will collect what belongs to me,negative,anger,pride,street,no,matched,Asserting right to what is hers — female self-advocacy,conflict,female,3,original,2026-05-05
+WZ-T-0350,Make we settle this thing like adults,Let us settle this thing like adults,neutral,neutral,,casual,no,matched,De-escalation attempt — female seeking resolution,conflict,female,1,original,2026-05-05
+WZ-T-0351,I don talk my own,I have said my piece,neutral,pride,,casual,no,matched,Closing a conflict conversation — final word register,conflict,female,2,original,2026-05-05
+WZ-T-0352,Nobody go silence me,Nobody will silence me,positive,pride,,street,no,matched,Female defiance of silencing — strong self-assertion,motivation,female,3,original,2026-05-05
+WZ-T-0353,I dey build even when dem no believe,I am building even when they don't believe,positive,pride,hustle_fatigue,casual,no,matched,Building under doubt — quiet female determination,motivation,female,3,original,2026-05-05
+WZ-T-0354,My story never finish,My story is not over yet,positive,pride,craving,casual,no,matched,Refusing narrative closure — female resilience register,motivation,female,3,original,2026-05-05
+WZ-T-0355,oya dey watch me,Watch me — I will prove it,positive,pride,,street,no,matched,Challenge acceptance — two words carrying full female defiance,motivation,female,3,original,2026-05-05
+WZ-T-0356,I carry myself reach here,I carried myself here — self-made,positive,pride,celebration,street,no,matched,Self-made declaration — no help narrative,motivation,female,3,original,2026-05-05
+WZ-T-0357,My darling how you dey?,My darling how are you?,positive,joy,,casual,no,matched,Warm intimate greeting — female affectionate address,greeting,female,1,original,2026-05-05
+WZ-T-0358,E don do? You don rest?,Is it okay now? Have you rested?,positive,neutral,,casual,no,matched,Checking someone has recovered — female caregiving greeting,greeting,female,1,original,2026-05-05
+WZ-T-0359,You look fresh today oh,You look fresh today,positive,joy,,casual,no,matched,Complimenting appearance on greeting — female social register,greeting,female,1,original,2026-05-05
+WZ-T-0360,Ah you too try,Oh you really tried — sarcastic disbelief,negative,forming,,street,yes,matched,"Sarcastic acknowledgement — opposite of genuine praise, implies failure",social,female,2,original,2026-05-05
+WZ-T-0361,Oh so na me you wan impress,Oh so it's me you want to impress — not buying it,negative,sarcasm,,street,yes,matched,Sarcastic calling out of performative behavior directed at her,social,female,2,original,2026-05-05
+WZ-T-0362,E be like say you sabi pass doctor,It seems like you know more than the doctor,negative,forming,,casual,yes,matched,Sarcasm about someone giving unsolicited medical advice,social,female,2,original,2026-05-05
+WZ-T-0363,Na you cause your own problem but okay,You caused your own problem but okay — dismissal,negative,contempt,anger,casual,yes,matched,Sarcastic sympathy withdrawal — you brought this on yourself,social,female,2,original,2026-05-05
+WZ-T-0364,You don do well well — same phrase different meaning,You did very well — sarcastic version implying failure,negative,sarcasm,,street,yes,contradicts,Female sarcastic use of praise phrase to mean opposite — mirrors WZ-T-0007 in female register,social,female,3,original,2026-05-05
+WZ-T-0365,I dey count my blessings,I am counting my blessings,positive,prayer_gratitude,,casual,no,matched,Gratitude practice — deliberate focus on positives,life,female,1,original,2026-05-05
+WZ-T-0366,I dey ginger myself,I am hyping myself up,positive,pride,celebration,casual,no,matched,Self-motivation before a challenge — female pre-game register,emotion,female,2,original,2026-05-05
+WZ-T-0367,I dey too hard on myself,I am too hard on myself,negative,hustle_fatigue,,casual,no,matched,Self-criticism awareness — female introspection register,emotion,female,2,original,2026-05-05
+WZ-T-0368,I dey learn to love myself,I am learning to love myself,positive,joy,hustle_fatigue,casual,no,matched,Self-love journey — active present-tense process not arrival,emotion,female,2,original,2026-05-05
+WZ-T-0369,My peace of mind worth everything,My peace of mind is worth everything,positive,pride,,casual,no,matched,Valuing peace over everything else — female boundary statement,life,female,2,original,2026-05-05
+WZ-T-0370,You do well,You did well — sincere praise,positive,celebration,,casual,no,matched,Genuine praise for completing a task well,work,neutral,2,original,2026-05-05
+WZ-T-0371,You do well,You did well — sarcastic disbelief at poor result,negative,sarcasm,,street,yes,contradicts,Same phrase sarcastic — speaker knows the result was actually bad,work,neutral,2,original,2026-05-05
+WZ-T-0372,You come early today oh,You came early today — genuine surprise compliment,positive,joy,,casual,no,matched,Sincere compliment at unexpectedly early arrival,social,neutral,1,original,2026-05-05
+WZ-T-0373,You come early today oh,"You came early today — sarcastic, speaker arrived very late",negative,sarcasm,anger,street,yes,matched,Classic Lagos sarcasm for extreme lateness — said with a straight face,social,neutral,2,original,2026-05-05
+WZ-T-0374,E no easy to save money,It is not easy to save money — empathy,negative,hustle_fatigue,,casual,no,matched,Sincere empathy about saving difficulty,money,neutral,1,original,2026-05-05
+WZ-T-0375,You wan teach me how to save money?,"You want to teach me how to save money? — sarcastic, speaker is richer",negative,forming,suspicion,street,yes,matched,Sarcasm at being given financial advice by someone worse off,money,neutral,3,original,2026-05-05
+WZ-T-0376,This soup sweet oh,This soup is delicious — genuine,positive,joy,,casual,no,matched,Sincere enjoyment of food,food,neutral,2,original,2026-05-05
+WZ-T-0377,This soup sweet oh,"This soup is delicious — sarcastic, it is clearly terrible",negative,sarcasm,,street,yes,matched,Sarcastic praise of bad food — deadpan delivery,food,neutral,2,original,2026-05-05
+WZ-T-0378,Thank you for the advice,Thank you for the advice — sincere gratitude,positive,joy,,casual,no,matched,Genuine appreciation for helpful advice,social,neutral,1,original,2026-05-05
+WZ-T-0379,Thank you for the advice,"Thank you for the advice — sarcastic, advice was useless or unsolicited",negative,sarcasm,anger,street,yes,contradicts,Sarcastic thanks for unwanted or unhelpful advice,social,neutral,2,original,2026-05-05
+WZ-T-0380,You dey grind,You are working hard — genuine admiration,positive,hustle_energy,,casual,no,matched,Sincere acknowledgement of someone's effort,work,neutral,2,original,2026-05-05
+WZ-T-0381,You dey grind,"You are working hard — sarcastic, person is clearly doing nothing",negative,sarcasm,,street,yes,matched,Sarcasm at laziness — person is obviously not working,work,neutral,2,original,2026-05-05
+WZ-T-0382,You never late,You are never late — sincere compliment,positive,celebration,,casual,no,matched,Sincere praise of someone's punctuality,social,female,1,original,2026-05-05
+WZ-T-0383,You never late oh,"You are never late — extreme sarcasm, person is always late",negative,sarcasm,anger,street,yes,contradicts,Peak Nigerian sarcasm — said to someone who is chronically late,social,female,3,original,2026-05-05
+WZ-T-0384,You dress fine today oh,You dressed well today — genuine compliment,positive,joy,,casual,no,matched,Sincere fashion compliment,social,neutral,1,original,2026-05-05
+WZ-T-0385,You dress fine today oh,"You dressed well today — sarcastic, outfit is clearly a mess",negative,sarcasm,,street,yes,matched,Sarcastic fashion compliment — outfit is objectively bad,social,neutral,2,original,2026-05-05
+WZ-T-0386,You dey always show up for me,You always show up for me — genuine appreciation,positive,celebration,prayer_gratitude,casual,no,matched,Sincere gratitude for reliable presence,relationship,neutral,2,original,2026-05-05
+WZ-T-0387,You dey always show up for me,"You always show up for me — sarcastic, person never shows up",negative,betrayal,forming,street,yes,matched,Sarcasm at unreliable person who consistently disappoints,relationship,neutral,3,original,2026-05-05
+WZ-T-0388,You sabi the work,You know the work — sincere recognition of skill,positive,pride,,casual,no,matched,Genuine acknowledgement of someone's competence,work,neutral,2,original,2026-05-05
+WZ-T-0389,You sabi the work,"You know the work — sarcastic, person clearly does not",negative,sarcasm,suspicion,street,yes,matched,Sarcasm at incompetence — person has just made a clear mistake,work,neutral,2,original,2026-05-05
+WZ-T-0390,Make sure you dey rest well,Make sure you rest well — sincere care,positive,neutral,,casual,no,matched,Genuine health advice from concerned person,health,neutral,1,original,2026-05-05
+WZ-T-0391,You want teach me about health?,You want to teach me about health? — from someone visibly unhealthy,negative,forming,suspicion,street,yes,matched,Sarcasm at health advice from someone in worse health than you,health,neutral,2,original,2026-05-05
+WZ-T-0392,You get patience oh,You have patience — genuine admiration,positive,pride,,casual,no,matched,Sincere admiration for someone's patience,social,neutral,1,original,2026-05-05
+WZ-T-0393,You get patience oh,"You have patience — sarcastic, speaker is extremely impatient",negative,sarcasm,anger,street,yes,contradicts,Sarcasm said to someone who is obviously impatient and agitated,social,neutral,2,original,2026-05-05
+WZ-T-0394,She sabi how to manage money,She knows how to manage money — sincere compliment,positive,market_energy,pride,casual,no,matched,Genuine praise of financial discipline,money,female,2,original,2026-05-05
+WZ-T-0395,She sabi how to manage money oh,"She knows how to manage money — sarcastic, she just made a terrible financial decision",negative,sarcasm,shock,street,yes,matched,Sarcasm after witnessing financial irresponsibility,money,female,3,original,2026-05-05
+WZ-T-0396,E no hard,"It is not hard — encouraging, task is manageable",positive,neutral,,casual,no,matched,Sincere encouragement that a task is not too difficult,work,neutral,1,original,2026-05-05
+WZ-T-0397,E no hard,"It is not hard — sarcastic, task is clearly very difficult",negative,forming,hustle_fatigue,street,yes,matched,Deadpan sarcasm about extreme difficulty said with straight face,work,neutral,3,original,2026-05-05
+WZ-T-0398,God don hear your prayer,God heard your prayer — sincere blessing,positive,prayer_gratitude,,casual,no,matched,Sincere prayer blessing for someone,faith,neutral,2,original,2026-05-05
+WZ-T-0399,E be like say God dey answer your prayer oh,It seems like God is answering your prayer — sarcastic when things are going badly,negative,sarcasm,shock,street,yes,matched,Sarcasm when things are clearly not going well — ironic prayer comment,faith,neutral,2,original,2026-05-05
+WZ-T-0400,You too quiet today oh,You are very quiet today — genuine concern,negative,suspicion,,casual,no,matched,Sincere concern about someone being unusually quiet,social,neutral,1,original,2026-05-05
+WZ-T-0401,You too quiet today oh,"You are very quiet today — sarcastic, person has not stopped talking",negative,sarcasm,anger,street,yes,contradicts,Sarcasm at someone who has been talking nonstop — quiet is the last thing they are,social,neutral,3,original,2026-05-05
+WZ-T-0402,You don make am,You have made it — sincere celebration of success,positive,celebration,pride,casual,no,matched,Genuine celebration of someone's breakthrough,work,female,3,original,2026-05-05
+WZ-T-0403,You don make am,"You have made it — sarcastic, situation has gotten worse not better",negative,sarcasm,shock,street,yes,contradicts,"Peak sarcasm — things just got significantly worse, not better",work,female,3,original,2026-05-05
+WZ-T-0404,I know say you go do the right thing,I knew you would do the right thing — sincere trust,positive,pride,prayer_gratitude,casual,no,matched,Sincere expression of faith in someone's character,relationship,neutral,2,original,2026-05-05
+WZ-T-0405,I know say you go do the right thing,I knew you would do the right thing — sarcastic after betrayal,negative,betrayal,forming,street,yes,matched,Said after someone did exactly the wrong thing — bitter sarcasm,relationship,neutral,3,original,2026-05-05
+WZ-T-0406,E easy,It is easy — sincere encouragement,positive,neutral,,casual,no,matched,Sincere reassurance that something is manageable,work,neutral,1,original,2026-05-05
+WZ-T-0407,E easy na,"It is easy — sarcastic, task is clearly overwhelming",negative,sarcasm,hustle_fatigue,street,yes,matched,Sarcastic minimising of something genuinely difficult — na makes it cutting,work,neutral,3,original,2026-05-05
+WZ-T-0408,Sorry oh,Sorry oh — genuine apology,neutral,neutral,,casual,no,matched,Sincere apology with emotional weight,relationship,female,2,original,2026-05-05
+WZ-T-0409,Sorry oh,"Sorry oh — sarcastic, no real remorse at all",negative,sarcasm,anger,street,yes,contradicts,Hollow apology said with zero sincerity — tone makes it an insult,relationship,female,2,original,2026-05-05
+WZ-T-0410,The price bo bad oh,The price is fair — genuine agreement,positive,market_energy,,casual,no,matched,Sincere acceptance of a reasonable price,money,neutral,1,original,2026-05-05
+WZ-T-0411,The price good,"The price is fair — sarcastic, price is outrageously high",negative,sarcasm,market_energy,street,yes,contradicts,Sarcastic agreement with an absurd price — deadpan Lagos market register,money,neutral,3,original,2026-05-05
+WZ-T-0412,Your life sweet oh,Your life is sweet — genuine compliment,positive,celebration,,casual,no,matched,Sincere admiration for someone's good life,social,neutral,2,original,2026-05-05
+WZ-T-0413,Your life sweet oh,Your life is sweet — sarcastic at someone performing happiness online,negative,sarcasm,suspicion,street,yes,contradicts,Sarcasm at performative social media happiness — everyone knows the real story,social,neutral,2,original,2026-05-05
+WZ-T-0414,You try oh,You really tried — sincere warm praise,positive,celebration,,casual,no,matched,Genuine warm praise — effort was real and appreciated,work,female,2,original,2026-05-05
+WZ-T-0415,You try oh,You really tried — sarcastic complete failure,negative,sarcasm,hustle_fatigue,street,yes,contradicts,Cutting sarcasm at a failed effort — the too makes it sting more,work,female,2,original,2026-05-05
+WZ-T-0416,She don comot,She has left — she actually left,negative,shock,betrayal,casual,no,matched,Shock at someone actually leaving — relationship or friendship ending unexpectedly,relationship,female,3,original,2026-05-10
+WZ-T-0417,He block me,He blocked me,negative,shock,betrayal,casual,no,matched,Shock at being blocked — digital age Nigerian relationship ending,relationship,female,3,original,2026-05-10
+WZ-T-0418,Them sack am today today,They fired him just like that today,negative,shock,hustle_fatigue,casual,no,matched,Sudden job loss shock — unexpected retrenchment,work,neutral,3,original,2026-05-10
+WZ-T-0419,How e take happen like that?,How did it happen like that?,negative,shock,,casual,no,matched,Disbelief at sudden event — rhetorical shock question,life,neutral,2,original,2026-05-10
+WZ-T-0420,I never see this kind thing before,I have never seen this kind of thing before,negative,shock,,casual,no,matched,Pure disbelief at something unprecedented,social,neutral,2,original,2026-05-10
+WZ-T-0421,Wetin be this one?,What is this? — extreme disbelief,negative,shock,,street,no,matched,Sharp shock exclamation at something unexpected or outrageous,social,neutral,2,original,2026-05-10
+WZ-T-0422,E fall down just like that,It/he just fell down like that,negative,shock,,casual,no,matched,"Shock at sudden collapse — person, deal, or situation",life,neutral,3,original,2026-05-10
+WZ-T-0423,God! She don born twins,God! She gave birth to twins,positive,shock,celebration,casual,no,matched,Positive shock at twin birth news — joyful disbelief,health,female,3,original,2026-05-10
+WZ-T-0424,Na so e just go like that?,He just went like that? — death or sudden departure,negative,shock,betrayal,casual,no,matched,Grief shock at sudden loss of a person — death or permanent departure,life,neutral,3,original,2026-05-10
+WZ-T-0425,I no believe am until I see am,I didn't believe it until I saw it,negative,shock,,casual,no,matched,Disbelief requiring personal confirmation — shock at unlikely event,social,neutral,2,original,2026-05-10
+WZ-T-0426,This thing shock me die,This thing shocked me badly,negative,shock,,street,no,matched,Intensified shock expression — die used as extreme intensifier,social,female,3,original,2026-05-10
+WZ-T-0427,Ehn?! Na real?,What?! Is it real?,negative,shock,,casual,no,matched,Two-word shock response — disbelief needing confirmation,social,neutral,2,original,2026-05-10
+WZ-T-0428,This thing too good to be true,This thing is too good to be true,negative,suspicion,,casual,no,matched,Classic suspicion of an offer that seems too perfect — Nigerian street wisdom,money,neutral,2,original,2026-05-10
+WZ-T-0429,Wetin him really want?,What does he really want?,negative,suspicion,,casual,no,matched,Questioning hidden motive behind someone's helpfulness,relationship,female,2,original,2026-05-10
+WZ-T-0430,Nobody do good for nothing for this Lagos,Nobody does good for nothing in Lagos — there is always a motive,negative,suspicion,,street,no,matched,Cynical Lagos wisdom — suspicion of generosity as strategy,social,neutral,2,original,2026-05-10
+WZ-T-0431,Why him just dey call me now now?,Why is he suddenly calling me now?,negative,suspicion,,casual,no,matched,Suspicion at sudden contact after long silence — usually means they want something,relationship,female,2,original,2026-05-10
+WZ-T-0432,Check am well well before you sign,Check it very carefully before you sign,negative,suspicion,,casual,no,matched,Warning to scrutinize a deal or contract — protective advice,work,neutral,2,original,2026-05-10
+WZ-T-0433,I wan make people sabi my name,I want people to know my name,positive,craving,pride,street,no,matched,Craving for recognition and legacy — ambition register,motivation,female,3,original,2026-05-10
+WZ-T-0434,I dey crave my own success story,I am craving my own success story,positive,craving,hustle_fatigue,casual,no,matched,Longing to have a breakthrough testimony of one's own,work,female,3,original,2026-05-10
+WZ-T-0435,I just wan make God show himself,I just want God to show up for me,positive,craving,prayer_gratitude,casual,no,matched,Spiritual craving for divine intervention — intimate prayer register,faith,female,3,original,2026-05-10
+WZ-T-0436,I wan make mama proud,I want to make my mother proud,positive,craving,pride,casual,no,matched,Craving parental pride — deeply Nigerian filial motivation,life,female,3,original,2026-05-10
+WZ-T-0437,Add am join for me,Add it in for me — asking for a bonus item,neutral,market_energy,,casual,no,matched,Requesting a freebie or addition to a purchase — Lagos market negotiation move,money,neutral,1,original,2026-05-10
+WZ-T-0438,I dey mind my business,I am minding my business,neutral,forming,,street,no,matched,Deliberate non-involvement — female boundary setting in social space,social,female,1,original,2026-05-10
+WZ-T-0439,She think say e easy,She thinks it is easy,negative,contempt,anger,casual,no,matched,Dismissing someone who underestimates difficulty — female frustration,social,female,2,original,2026-05-10
+WZ-T-0440,I no send her,I don't care about her,negative,contempt,,street,no,matched,Deliberate indifference to another woman — social detachment,social,female,2,original,2026-05-10
+WZ-T-0441,Na her problem,It is her problem,negative,contempt,,casual,no,matched,Removing herself from someone else's issue — boundaries,social,female,1,original,2026-05-10
+WZ-T-0442,She go learn,She will learn — eventually,negative,contempt,suspicion,street,no,matched,Predicting future consequences for someone who won't listen,social,female,2,original,2026-05-10
+WZ-T-0443,My circle small but mighty,My circle is small but mighty,positive,pride,celebration,casual,no,matched,Female friendship quality over quantity — chosen family register,social,female,2,original,2026-05-10
+WZ-T-0444,We don talk finish,We have finished talking — done with the conversation,neutral,forming,,street,no,matched,Closing a conversation with finality — female conflict exit,social,female,2,original,2026-05-10
+WZ-T-0445,She dey form busy,She is pretending to be busy,negative,forming,,casual,no,matched,Calling out performed busyness — social observation,social,female,2,original,2026-05-10
+WZ-T-0446,I dey save small small,I am saving little by little,positive,hustle_energy,pride,casual,no,matched,Disciplined saving under pressure — female financial resilience,money,female,2,original,2026-05-10
+WZ-T-0447,My account dey breathe,My account is breathing — barely positive,positive,joy,,casual,no,matched,Financial relief — account just above zero but surviving,money,female,2,original,2026-05-10
+WZ-T-0448,I don budget am already,I have already budgeted for it,neutral,neutral,,casual,no,matched,Financial planning statement — female money management register,money,female,1,original,2026-05-10
+WZ-T-0449,I no dey spend wetin I no budget,I don't spend what I haven't budgeted,positive,pride,,casual,no,matched,Financial discipline statement — principled money management,money,female,2,original,2026-05-10
+WZ-T-0450,Na investment no be spending,It is an investment not spending,positive,market_energy,pride,casual,no,matched,Reframing a purchase as investment — female financial self-justification,money,female,2,original,2026-05-10
+WZ-T-0451,E pain me as i spend am,It hurt me to spend it,negative,hustle_fatigue,,casual,no,matched,Reluctant spending — pain of necessary expenditure,money,female,2,original,2026-05-10
+WZ-T-0452,I don submit the proposal,I have submitted the proposal,positive,pride,,casual,no,matched,Milestone completion — relief and quiet pride,work,female,2,original,2026-05-10
+WZ-T-0453,My work dey speak for im self,My work speaks for itself,positive,pride,,street,no,matched,Confidence in output quality — female professional pride,work,female,2,original,2026-05-10
+WZ-T-0454,I no need anybody to validate me,I don't need anyone to validate me,positive,pride,forming,street,no,matched,Self-validation declaration — rejecting external approval dependency,work,female,3,original,2026-05-10
+WZ-T-0455,They go see the result soon,They will see the result soon,positive,pride,hustle_fatigue,casual,no,matched,Patient confidence while working in obscurity,work,female,2,original,2026-05-10
+WZ-T-0456,I dey build in silence,I am building in silence,positive,pride,hustle_fatigue,street,no,matched,Quiet ambition — not announcing until ready,work,female,2,original,2026-05-10
+WZ-T-0457,E no been easy but I finish am,It was not easy but I finished it,positive,celebration,hustle_fatigue,casual,no,matched,Task completion after struggle — female perseverance payoff,work,female,3,original,2026-05-10
+WZ-T-0458,I dey grateful for where I dey,I am grateful for where I am,positive,prayer_gratitude,,casual,no,matched,Contentment with current position — gratitude without comparison,life,female,2,original,2026-05-10
+WZ-T-0459,I don choose myself,I have chosen myself,positive,pride,,casual,no,matched,Self-prioritisation declaration — female self-care boundary,life,female,3,original,2026-05-10
+WZ-T-0460,Nobody go rush my process,Nobody will rush my process,positive,pride,forming,street,no,matched,Defending personal timeline against external pressure,life,female,2,original,2026-05-10
+WZ-T-0461,I dey walk my own path,I am walking my own path,positive,pride,,casual,no,matched,Individual direction statement — not following crowd,life,female,2,original,2026-05-10
+WZ-T-0462,This season go pass,This season will pass,positive,prayer_gratitude,hustle_fatigue,casual,no,matched,Faith-based endurance — seasons framing of difficulty,life,female,2,original,2026-05-10
+WZ-T-0463,I don outgrow certain things,I have outgrown certain things,positive,pride,forming,casual,no,matched,Personal growth acknowledgement — quiet maturity,life,female,2,original,2026-05-10
+WZ-T-0464,I go handle am my own way,I will handle it my own way,negative,pride,anger,street,no,matched,Asserting independence in conflict resolution — female self-reliance,conflict,female,2,original,2026-05-10
+WZ-T-0465,You no want see me when i vex,You don't want to see my angry side,negative,anger,pride,street,no,matched,Warning before escalation — female controlled anger,conflict,female,2,original,2026-05-10
+WZ-T-0466,I go leave am for God,I will leave it for God,neutral,prayer_gratitude,anger,casual,no,matched,Surrendering conflict to God — female faith response to injustice,conflict,female,2,original,2026-05-10
+WZ-T-0467,I no dey fight for market,I don't fight in public — I have standards,neutral,forming,pride,street,no,matched,Refusing to lower herself to public conflict — dignity statement,conflict,female,2,original,2026-05-10
+WZ-T-0468,E go make sense one day,It will make sense one day,positive,prayer_gratitude,hustle_fatigue,casual,no,matched,Faith that current struggle has future meaning,motivation,female,2,original,2026-05-10
+WZ-T-0469,I dey go even if dem no clap for me,I am going even if nobody claps for me,positive,pride,hustle_fatigue,street,no,matched,Moving without validation — self-fuelled female ambition,motivation,female,3,original,2026-05-10
+WZ-T-0470,My hustle no be for show,My hustle is not for show,positive,pride,,street,no,matched,Authentic effort over performative grind — female work ethic,motivation,female,2,original,2026-05-10
+WZ-T-0471,How your people?,How is your family?,neutral,neutral,,casual,no,matched,Family welfare greeting — communal care register,greeting,female,1,original,2026-05-10
+WZ-T-0472,How your people dey?,How is your family?,neutral,neutral,,casual,no,matched,Family welfare greeting — communal care register,greeting,female,1,original,2026-05-10
+WZ-T-0473,E don do well?,Is everything okay now?,neutral,neutral,,casual,no,matched,Follow-up greeting checking on a previous situation,greeting,female,1,original,2026-05-10
+WZ-T-0474,I dey feel lighter today,I am feeling lighter today,positive,joy,,casual,no,matched,"Emotional relief — burden lifted, feeling better than before",emotion,female,2,original,2026-05-10
+WZ-T-0475,Something just shift for me,Something just shifted for me — internally,positive,joy,prayer_gratitude,casual,no,matched,Internal breakthrough — emotional or spiritual shift,emotion,female,2,original,2026-05-10
+WZ-T-0476,I dey feel myself today,I am feeling myself today — confident,positive,pride,joy,casual,no,matched,Confidence and self-possession — good day energy,emotion,female,2,original,2026-05-10
+WZ-T-0477,I no dey hide my joy,I am not hiding my joy,positive,joy,celebration,casual,no,matched,Unashamed happiness — refusing to dim own light,emotion,female,2,original,2026-05-10
+WZ-T-0478,I allow myself feel am,I allowed myself to feel it,negative,hustle_fatigue,,casual,no,matched,Permitting emotional processing — female self-awareness register,emotion,female,2,original,2026-05-10
+WZ-T-0479,This testimony no be small thing,This testimony is not a small thing,positive,prayer_gratitude,celebration,casual,no,matched,Weight of answered prayer — not taking blessing lightly,faith,female,3,original,2026-05-10
+WZ-T-0480,God dey on time,God is always on time,positive,prayer_gratitude,,casual,no,matched,Affirming divine timing — common Nigerian faith expression,faith,female,2,original,2026-05-10
+WZ-T-0481,I go look back laugh,I will look back and laugh at this season,positive,prayer_gratitude,hustle_fatigue,casual,no,matched,Future faith perspective on present difficulty — testimony framing,faith,female,2,original,2026-05-10
+WZ-T-0482,I don leave am for God,I have put it in God's hands,neutral,prayer_gratitude,,casual,no,matched,Surrendering conflict to God — faith response to injustice,faith,neutral,2,original,2026-05-10
+WZ-T-0483,you think say e easy?,You think it is easy?,negative,contempt,,casual,no,matched,"Contempt at someone dismissing difficulty — cold downward energy, not anger",life,neutral,2,original,2026-05-10
+WZ-T-0484,na her problem be this,This is her problem — she is the issue.,negative,contempt,,casual,no,matched,"Cold contempt distancing from a female — speaker is not angry, just done",relationship,neutral,2,original,2026-05-10
+WZ-T-0485,I dey ready to blow,I am ready to make it big,positive,hustle_energy,pride,street,no,matched,Fired-up energy of someone who feels their moment is coming — confident and activated,motivation,female,4,original,2026-05-17
+WZ-T-0486,"This year na my year, nothing go stop me","This year is my year, nothing will stop me",positive,hustle_energy,pride,casual,no,matched,Declarative hustle energy — statement of intent and unstoppable momentum,motivation,neutral,5,original,2026-05-17
+WZ-T-0487,"I dey build something big, just watch me","I am building something big, just watch me",positive,hustle_energy,pride,casual,no,matched,Confident hustle energy — building with excitement and anticipation of results,work,female,4,original,2026-05-17
+WZ-T-0488,E dey sweet me to grind like this,I genuinely enjoy grinding like this,positive,hustle_energy,joy,casual,no,matched,"Rare positive relationship with hard work — enjoying the grind, not just enduring it",work,neutral,4,original,2026-05-17
+WZ-T-0489,My hustle dey pay oh,My hard work is paying off,positive,hustle_energy,celebration,casual,no,matched,Hustle energy expressed as visible results — the grind is working and the person feels it,money,female,4,original,2026-05-17
+WZ-T-0490,I no go sleep until I finish this work,I will not sleep until I finish this work,positive,hustle_energy,pride,casual,no,matched,Activated hustle mode — deliberate sacrifice of comfort for the work. Different from hustle_fatigue which is depleted.,work,neutral,4,original,2026-05-17
+WZ-T-0491,Na this grind go make me great,This grind is what will make me great,positive,hustle_energy,pride,street,no,matched,Purposeful hustle energy — connecting current work to future greatness,motivation,neutral,5,original,2026-05-17
+WZ-T-0492,"I get ginger today, nothing go slow me down","I have energy and motivation today, nothing will slow me down",positive,hustle_energy,joy,casual,no,matched,Ginger in Lagos Pidgin = motivation and energy. Daily hustle energy when everything feels aligned.,work,female,4,original,2026-05-17
+WZ-T-0493,Poverty no go see me again,Poverty will never find me again,positive,hustle_energy,pride,street,no,matched,Defiant hustle energy — grind fuelled by memory of lack. Common declaration in Lagos grind culture.,money,neutral,5,original,2026-05-17
+WZ-T-0494,"I wan make am before 30, I dey work for am","I want to be successful before 30, I am working toward it",positive,hustle_energy,craving,casual,no,matched,Time-pressured hustle energy — the 30 benchmark is a specific Nigerian youth cultural marker for success,motivation,female,4,original,2026-05-17
+WZ-T-0495,E never easy but I no dey give up,It is not easy but I am not giving up,positive,hustle_energy,hustle_fatigue,casual,no,matched,Resilient hustle energy — acknowledges difficulty but maintains forward momentum. Secondary hustle_fatigue shows the cost.,work,neutral,4,original,2026-05-17
+WZ-T-0496,"I dey on my grind, watch how e go turn out","I am grinding hard, watch how it will turn out",positive,hustle_energy,pride,street,no,matched,Confident grind energy — the outcome is anticipated with certainty. Watch me energy.,motivation,female,4,original,2026-05-17
+WZ-T-0497,I no get time for this kind person,I have no time for this kind of person,negative,contempt,suspicion,casual,no,matched,Cold contempt — dismissal without anger. The person is beneath the speaker's engagement.,relationship,female,3,original,2026-05-17
+WZ-T-0498,E no reach my level abeg,"He/she has not reached my level, please",negative,contempt,pride,street,no,matched,Contempt expressed as superiority — the other person is not worth direct engagement because they are on a lower level,social,neutral,3,original,2026-05-17
+WZ-T-0499,Who be you sef?,Who are you even?,negative,contempt,anger,street,no,matched,Sharp contempt question — sef amplifies the dismissiveness. Questions the person's worth or authority.,conflict,neutral,4,original,2026-05-17
+WZ-T-0500,I no send am at all at all,I do not care about him/her at all,negative,contempt,neutral,casual,no,matched,I no send = I do not care/regard. At all at all is Pidgin intensifier for absolute dismissal. Total contempt through indifference.,relationship,female,4,original,2026-05-17

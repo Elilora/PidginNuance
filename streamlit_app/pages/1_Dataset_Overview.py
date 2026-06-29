@@ -28,11 +28,11 @@ col3.metric("Emotion Categories", len(data["emotion_distribution"]))
 col4.metric("Sarcasm Rate",f"{round(100 * data['sarcasm_flag'].get('yes', 0) / data['total_rows'], 1)}%" if "yes" in data.get("sarcasm_flag", {}) else "N/A",)
 
 
-style_metric_cards(
-    background_color="#B3EBF2",
-    border_left_color="#FFFFFF",
-    border_color="#FFFFFF",
-    box_shadow=True,)
+#style_metric_cards(
+   # background_color="#B3EBF2",
+   # border_left_color="#FFFFFF",
+   # border_color="#FFFFFF",
+   # box_shadow=True,)"""
 
 st.divider()
 

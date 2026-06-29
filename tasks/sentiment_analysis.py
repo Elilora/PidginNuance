@@ -8,10 +8,10 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Login to Hugging Face Hub
 dotenv.load_dotenv()
-token = os.getenv("HUGGINGFACE_KEY")
-print("Token found:", token is not None)
-
-login(token)
+_token = os.getenv("HUGGINGFACE_KEY")
+if _token:
+    print("Token found:", _token is not None)
+    login(_token)
 
 # Load data
 data_original = load_test_data()

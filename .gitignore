@@ -32,3 +32,6 @@ dashboard/.next/
 
 # Analysis computed outputs (regeneratable)
 analysis/data/
+
+# Results   (test hypothesis)
+results/*
