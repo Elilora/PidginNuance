@@ -1,5 +1,6 @@
 import os
 import dotenv
+from pathlib import Path
 from utils import logger
 from transformers import pipeline
 from huggingface_hub import login
@@ -7,7 +8,7 @@ from data import load_test_data
 from sklearn.metrics import accuracy_score, classification_report
 
 # Login to Hugging Face Hub
-dotenv.load_dotenv()
+dotenv.load_dotenv(dotenv_path=Path(__file__).resolve().parents[1] / ".env.local")
 _token = os.getenv("HUGGINGFACE_KEY")
 if _token:
     print("Token found:", _token is not None)

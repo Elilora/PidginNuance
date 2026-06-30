@@ -1,8 +1,9 @@
 import os
 import anthropic
 import dotenv
+from pathlib import Path
 
-dotenv.load_dotenv()
+dotenv.load_dotenv(dotenv_path=Path(__file__).resolve().parents[1] / ".env.local")
 
 emotion_classes = ["anger", "betrayal", "celebration", "contempt", "craving","forming", "hustle_energy", "hustle_fatigue", "joy","market_energy", "neutral", "prayer_gratitude", "pride","sarcasm", "shock", "suspicion"]
 
