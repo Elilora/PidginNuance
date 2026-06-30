@@ -6,16 +6,10 @@ from pathlib import Path
 import plotly.express as px
 import plotly.graph_objects as go
 
-project_root = Path(__file__).resolve()
-while project_root.name != "Pidgin_analysis":
-    project_root = project_root.parent
-sys.path.insert(0, str(project_root))
-
-
 st.set_page_config(page_title="Sentiment & Emotion Analysis", layout="wide")
 st.title("Sentiment & Emotion Analysis")
 
-data_path= Path(project_root) / "analysis/data/sentiment_emotion_analysis.json"
+data_path= Path("analysis/data/sentiment_emotion_analysis.json")
 
 if not data_path.exists():
     st.error("sentiment_emotion_analysis.json not found. Run `python -m analysis.compute_analysis` first.")

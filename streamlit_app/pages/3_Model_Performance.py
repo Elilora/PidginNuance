@@ -6,18 +6,10 @@ from pathlib import Path
 import plotly.express as px
 import plotly.graph_objects as go
 
-
-project_root = Path(__file__).resolve()
-while project_root.name != "Pidgin_analysis":
-    project_root = project_root.parent
-sys.path.insert(0, str(project_root))
-
-
-
 st.set_page_config(page_title="Model Performance", layout="wide")
 st.title("Model Performance")
 
-data_path = Path(project_root) / "analysis/data/model_performance.json"
+data_path = Path("analysis/data/model_performance.json")
 
 if not data_path.exists():
     st.error("model_performance.json not found. Run `python -m analysis.compute_analysis` first.")

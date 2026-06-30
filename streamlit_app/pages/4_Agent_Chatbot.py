@@ -1,11 +1,8 @@
 import sys
 import streamlit as st
 from pathlib import Path
-project_root = Path(__file__).resolve()
-while project_root.name != "Pidgin_analysis":
-    project_root = project_root.parent
 
-sys.path.insert(0, str(project_root))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from tasks.emotion_guessing_pipeline import guess_emotion
 from tasks.sentiment_analysis_pipeline import predict_sentiment
