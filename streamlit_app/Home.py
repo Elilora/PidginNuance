@@ -117,9 +117,4 @@ Wariness or distrust
 
 st.divider()
 
-st.info("""
-**Why emotion matters for Pidgin sentiment:** Text-only sentiment classification 
-caps at ~51% accuracy because the same surface text carries opposite sentiment 
-depending on context. Providing the emotion category lifts accuracy to 96.4% — 
-quantifying how much meaning in Pidgin lives outside the words themselves.
-""")
+
