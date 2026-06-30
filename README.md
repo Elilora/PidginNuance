@@ -18,9 +18,7 @@ This project began with a LinkedIn post by Stephanie Nkemjika Okoye, the dataset
 
 She went on to describe building a 16-category emotion taxonomy from scratch, grounded in how Nigerians actually speak, including categories like `forming` (performing unbothered on purpose), `market_energy` (the sharp transactional energy of Nigerian negotiation), `prayer_gratitude` (the testimony register), and `contempt` (a cold downward dismissal distinct from anger). The dataset included 39 sarcasm pairs with sincere twins: identical surface text, opposite sentiment, different emotional register, a deliberate design choice to capture the nuance that standard positive/negative/neutral annotation erases.
 
-This project is a direct response to that observation. The core hypothesis going in was the same point Okoye made: that sentiment in Nigerian Pidgin is not recoverable from surface text alone, and that the emotional register annotation her taxonomy provides is the missing signal. The experiments confirm it. Text-only sentiment classification caps at ~50%, and providing ground-truth emotion context lifts that to 96.4%, directly quantifying the gap between "reads the words" and "understands the language."
 
-Nigerian Pidgin carries its meaning in layers, in the weight behind a word, in the register it is spoken in, in whether "You do well" lands as a compliment or a cut. The emotion is not separate from the sentiment; it is how the sentiment travels. Building systems that understand Pidgin means building systems that understand this, not flattening it into three buckets, but meeting the language where it actually lives.
 
 ---
 
@@ -31,74 +29,6 @@ Nigerian Pidgin carries its meaning in layers, in the weight behind a word, in t
 - **Sentiment classes**: positive, negative, neutral
 - **Emotion classes**: 16 fine-grained categories (anger, betrayal, celebration, contempt, craving, forming, hustle_energy, hustle_fatigue, joy, market_energy, neutral, prayer_gratitude, pride, sarcasm, shock, suspicion)
 
----
-
-## Ablation Study: Text-Only vs. Context-Aware Sentiment
-
-The central question of this project was: **how much of sentiment in Nigerian Pidgin is carried by the words versus the emotional/tonal context?**
-
-### What the overlap experiment revealed
-
-To test the hypothesis that emotion is necessary for sentiment prediction in Nigerian Pidgin, the training and evaluation sets were compared directly. 211 of 248 unique evaluation texts were found to also exist in the training set, which, for a text-only model, would be flagged as data leakage. Closer inspection turned this into the most revealing finding of the project.
-
-Of those overlapping rows, 28 had identical surface text but deliberately different sentiment and emotion labels. These were not annotation errors. They were the same sentence, said two different ways:
-
-| Text | Sentiment | Emotion | Sarcasm |
-|------|-----------|---------|---------|
-| "You do well" | positive | celebration | no |
-| "You do well" | negative | sarcasm | yes |
-| "E no hard" | positive | neutral | no |
-| "E no hard" | negative | forming | yes |
-| "You sabi the work" | positive | pride | no |
-| "You sabi the work" | negative | sarcasm | yes |
-
-The same words. Opposite meaning. The only thing that changed was the emotional register, and that register is exactly what a text-only model cannot see.
-
-What looked like a data quality problem was actually the dataset doing its job: deliberately testing whether a model can distinguish sincerity from sarcasm when the surface text gives no signal. The 214 true duplicates (same text, same labels across every annotation column) were removed. The 28 context-variant pairs were preserved as the most important part of the evaluation set, the cases where text alone is definitionally insufficient, and where emotion is the only path to the correct answer.
-
-This finding shaped the experimental design. Three conditions were tested in sequence, each adding more context to the model's input:
-
-### Condition 1: Pre-trained model, text only (no fine-tuning)
-A model already fine-tuned on Nigerian Pidgin Twitter sentiment data was applied directly to the dataset, with no additional training. Input was raw `pidgin_text` alone.
-
-**Result: ~51% accuracy**
-
-This was the baseline, the best a text-only model could do without any adaptation to this specific dataset.
-
-### Condition 2: Fine-tuned model, text only
-The same model architecture was fine-tuned further on the 500-row training set, still using raw `pidgin_text` as the only input.
-
-**Result: ~53% accuracy**
-
-Minimal improvement over the baseline, confirming the bottleneck was not the model's lack of exposure to this data, but the fundamental ambiguity of text-only sentiment prediction in Pidgin. The same words carry opposite sentiment depending on context. No amount of fine-tuning on the text alone can resolve this.
-
-### Condition 3: Fine-tuned model, text + emotion context
-The emotion category annotation was concatenated as a structured prefix to the input text before tokenization:
-
-```
-[EMOTION: sarcasm] You do well
-```
-
-The model was then fine-tuned on this combined input to predict sentiment.
-
-**Result: 96.4% accuracy on the 253-row held-out evaluation set**
-
-The jump from ~53% to 96.4% directly quantifies how much sentiment signal in Nigerian Pidgin lives outside the surface text, in tonal, emotional, and contextual cues that the `emotion_category` annotation captures. The gap between reading words and understanding language, for Nigerian Pidgin, turns out to be almost total.
-
----
-
-## Results Summary
-
-| Condition | Input | Accuracy |
-|---|---|---|
-| Pre-trained baseline | `pidgin_text` only | ~51% |
-| Fine-tuned, text only | `pidgin_text` only | ~53% |
-| Fine-tuned, with emotion context | `[EMOTION: x] pidgin_text` | **96.4%** |
-| Emotion classification (16 classes) | `pidgin_text` only | ~33% |
-
-The emotion classification result (~33% on 16 classes) reflects a data constraint, averaging ~31 training examples per class, rather than a modelling failure, and is consistent with known challenges in fine-grained emotion classification for low-resource languages.
-
----
 
 ## AI Agent
 
@@ -147,15 +77,6 @@ python -m streamlit run streamlit_app/Home.py
 ```bash
 python -m agent.pidgin_agent
 ```
-
----
-
-## Key Technical Decisions
-
-**Full fine-tuning over LoRA/PEFT**: the base encoder model (~270M parameters) and small dataset (~400 training rows after splitting) make parameter-efficient fine-tuning methods unnecessary. Full fine-tuning runs in minutes and produces a better-adapted model at this scale.
-
-**Text prefix concatenation over custom architecture**: injecting `emotion_category` as a structured text prefix (`[EMOTION: x]`) rather than a separate learned embedding branch keeps the architecture simple and standard, avoids overfitting risk on a small dataset, and is interpretable. You can read exactly what the model sees.
-
 
 ---
 

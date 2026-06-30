@@ -35,3 +35,6 @@ analysis/data/
 
 # Results   (test hypothesis)
 results/*
+
+# Model upload
+push_to_hub.py
