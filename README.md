@@ -1,4 +1,4 @@
-# Nigerian Pidgin Sentiment & Emotion Analysis (PidginNuance)
+# Nigerian Pidgin Sentiment & Emotion Analysis 
 
 An end-to-end NLP pipeline for analysing sentiment and emotion in Nigerian Pidgin text, a language where tone, sarcasm, and cultural context carry as much meaning as the words themselves.
 
