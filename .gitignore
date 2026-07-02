@@ -27,6 +27,7 @@ finetuned/sanity_check.py
 data/preprocess_data.ipynb
 
 # Dashboard
+dashboard/
 dashboard/node_modules/
 dashboard/.next/
 
@@ -38,3 +39,6 @@ results/*
 
 # Model upload
 push_to_hub.py
+
+# Mac files
+**/.DS_Store
