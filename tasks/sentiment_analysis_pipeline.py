@@ -10,7 +10,7 @@ if _token:
     login(_token)
 
 
-# Load model from huggingface hub
+# Load model from Hugging Face Hub 
 model_dir = "Elilora/pidgin-sentiment-afriberta-finetuned_with_emotion"
 
 # Load at module level

@@ -22,7 +22,6 @@ logger.info("Loaded %d rows", len(data))
 # Load model from Hugging Face Hub
 model_dir = "Elilora/pidgin-sentiment-afriberta-finetuned_with_emotion"
 
-# Load at module level
 sentiment_pipeline = pipeline("sentiment-analysis",model=model_dir,tokenizer=model_dir)
 
 # Combined input format to fit the data the model was trained on
