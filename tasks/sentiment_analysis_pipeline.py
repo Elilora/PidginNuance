@@ -9,7 +9,9 @@ _token = os.getenv("HUGGINGFACE_KEY")
 if _token:
     login(_token)
 
-model_dir = "./finetuned/sentiment_with_emotion_model"
+
+# Load model from huggingface hub
+model_dir = "Elilora/pidgin-sentiment-afriberta-finetuned_with_emotion"
 
 # Load at module level
 _sentiment_pipeline = pipeline("sentiment-analysis",model=model_dir,tokenizer=model_dir)

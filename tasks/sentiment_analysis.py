@@ -9,18 +9,21 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Login to Hugging Face Hub
 dotenv.load_dotenv(dotenv_path=Path(__file__).resolve().parents[1] / ".env.local")
-_token = os.getenv("HUGGINGFACE_KEY")
-if _token:
-    print("Token found:", _token is not None)
-    login(_token)
+token = os.getenv("HUGGINGFACE_KEY")
+if token:
+    print("Token found:", token is not None)
+    login(token)
 
 # Load data
 data_original = load_test_data()
 data = data_original.dropna(subset=["pidgin_text", "sentiment","emotion_category"]).reset_index(drop=True)
 logger.info("Loaded %d rows", len(data))
 
-# Load the model for sentiment analysis
-sentiment_pipeline = pipeline("sentiment-analysis",model="./finetuned/sentiment_with_emotion_model",  tokenizer="./finetuned/sentiment_with_emotion_model",)
+# Load model from Hugging Face Hub
+model_dir = "Elilora/pidgin-sentiment-afriberta-finetuned_with_emotion"
+
+# Load at module level
+sentiment_pipeline = pipeline("sentiment-analysis",model=model_dir,tokenizer=model_dir)
 
 # Combined input format to fit the data the model was trained on
 data["model_input"] = "[EMOTION: " + data["emotion_category"].astype(str) + "] " + data["pidgin_text"]

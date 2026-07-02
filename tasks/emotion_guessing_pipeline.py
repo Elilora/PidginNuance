@@ -9,6 +9,7 @@ emotion_classes = ["anger", "betrayal", "celebration", "contempt", "craving","fo
 
 _client = None
 
+# Api Key
 def _get_client():
     global _client 
     if _client is None:
@@ -33,8 +34,7 @@ def guess_emotion(text):
                             f"Choose exactly ONE emotion from this list: {emotion_classes}\n"
                             f"Respond with ONLY the emotion label, nothing else.\n\n"
                             f"Text: {text}\n"
-                            f"Emotion:"),}
-            ],)
+                            f"Emotion:"),}],)
 
     emotion = response.content[0].text.strip().lower()
 
@@ -47,7 +47,7 @@ def guess_emotion(text):
             else:
                 emotion = "neutral"
 
-    return { "emotion_category": emotion, "all_classes": emotion_classes}
+    return {"emotion_category": emotion, "all_classes": emotion_classes}
 
 
 if __name__ == "__main__":
