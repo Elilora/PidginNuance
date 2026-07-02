@@ -7,6 +7,7 @@ An end-to-end NLP pipeline for analysing sentiment and emotion in Nigerian Pidgi
 ## Project Overview
 
 Nigerian Pidgin is a high-context language where the same surface text can express opposite sentiments depending on tone, emotional register, and intent. The sentence "You do well", said in pride versus said in sarcasm, carries completely different meaning. This project investigates how much of that sentiment signal is recoverable from text alone versus emotional context, builds fine-tuned classification models that explicitly leverage emotion as an input feature alongside text, and wraps the best-performing approach in an AI agent that first identifies the emotional context of new Pidgin text before predicting its sentiment.
+
 ---
 
 ## Motivation
