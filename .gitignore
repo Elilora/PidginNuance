@@ -14,7 +14,6 @@ __pycache__/
 finetuned/
 sentiment_model/
 emotion_model_stage1/
-multitask_model/
 sentiment_with_emotion_model/
 
 # Specific files to ignore
@@ -27,9 +26,7 @@ finetuned/sanity_check.py
 data/preprocess_data.ipynb
 
 # Dashboard
-dashboard/
-dashboard/node_modules/
-dashboard/.next/
+dashboard/*
 
 # Analysis computed outputs (regeneratable)
 analysis/data/
